@@ -1,4 +1,4 @@
-$max-width: 1200px !default;
+$max-width: 1300px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -15,8 +15,8 @@ $sidebar-width-wide: 200px !default;
 $indented-lists: false !default;
 
 $header-font-size: 1em !default;
-$header-padding-top: 1.5em !default;
-$header-padding-bottom: 1.5em !default;
+$header-padding-top: 10px !default;
+$header-padding-bottom: 10px !default;
 
 .group { @include pie-clearfix; }
 
@@ -49,7 +49,7 @@ body {
   position: relative;
   margin: 0 auto;
   @media only screen and (min-width: 992px) {
-    margin: 0 70px auto;
+    //margin: 0 70px auto;
   }
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
     @extend .group;
