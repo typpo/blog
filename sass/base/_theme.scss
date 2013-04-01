@@ -12,9 +12,9 @@ $main-bg: #f8f8f8 !default;
 $page-bg: #cfcfcf !default;
 $article-border: #eeeeee !default;
 
-$header-bg: #004529 !default;
+$header-bg: #c5dcbb !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: #f2f2f2 !default;
+$title-color: #404040 !default;
 $subtitle-color: #aaa !default;
 
 $text-color: #222 !default;
@@ -22,9 +22,9 @@ $text-color-light: #aaa !default;
 $type-border: #ddd !default;
 
 /* Navigation */
-$nav-bg: #C5DCBB !default;
+$nav-bg: #eee !default;
 $nav-bg-front: image-url('noise.png') !default;
-$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
+$nav-bg-back: lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11) !default;
 $nav-color: darken($nav-bg, 38) !default;
 $nav-color-hover: darken($nav-color, 25) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
