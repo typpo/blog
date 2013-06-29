@@ -9,8 +9,8 @@ $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
 $main-bg: #f8f8f8 !default;
-$page-bg: #cfcfcf !default;
-$article-border: #eeeeee !default;
+$page-bg: #eee !default;
+$article-border: #aaa !default;
 
 $header-bg: #c5dcbb !default;
 $header-border: lighten($header-bg, 15) !default;

@@ -151,6 +151,12 @@ In this solution, `setTimeout` yields execution flow to things like calls to `an
 
 Prior to this approach, additional web workers had no effect on my simulation. Using `timedChunk` allowed me to increase the number of web workers because it eliminated a UI thread bottleneck.
 
+## An update
+
+Because this post still gets a decent amount of traffic, I want to mention a significant change I made to Asterank that improved particle performance considerably.
+
+I saw huge gains in smoothness by writing a custom shader (using `ShaderMaterial`) for my particle system.  I wound up moving all position calculations to the GPU, which was incredibly important in ensuring the smoothness of the simulation.  It is likely you'd see the same gains if your particles have independent trajectories.  I wrote a basic custom shader introduction [here](http://www.ianww.com/blog/2012/12/16/an-introduction-to-custom-shaders-with-three-dot-js/).
+
 ## Conclusion
 
 I went from lagging at ~60 moving particles to being able to smoothly render 20,000+ independently moving particles.
