@@ -27,13 +27,19 @@ The amount of data is huge.  Due to query constraints, I wound up slowly scrapin
 
 This is by far the most GPU-intensive simulation I've done.  It won't run well without an ok graphics card.  And it definitely won't run on your phone.
 
- I spent a lot of time tweaking a preprocessing algorithm for combining particles that overlapped visually with one another.  Particles representating masses of dark matter were combined based on their size and luminosity.  Using an [R-tree](http://en.wikipedia.org/wiki/R-tree), nearby neighbors were fitted and combined in the visualization coordinate system to reduce extra rendering.
+### Reducing points with spatial compression
+
+It's not necessary to actually render millions of points for typical screen resolutions. I created a preprocessing algorithm for combining particles that overlapped visually with one another.  Particles representing masses of dark matter are combined based on their size and luminosity.  Using an [R-tree](http://en.wikipedia.org/wiki/R-tree), nearby neighbors are fitted and combined in the visualization coordinate system to reduce extra rendering.
 
 [{% img center http://upload.wikimedia.org/wikipedia/commons/thumb/5/57/RTree-Visualization-3D.svg/400px-RTree-Visualization-3D.svg.png  %}](http://en.wikipedia.org/wiki/R-tree)
 
 This reduced the number of particles rendered by an order of magnitude without significantly affecting the overall appearance of the visualization.  As a result, decent laptops (eg. my 11" macbook air) can run the simulation.
 
-The simulation also changes based on user fps.  Someone whose computer and graphics card are more powerful will see a tilt shift and better rotation.
+### Adjusting simulation based on fps
+
+The simulation also changes based on user fps.  Someone whose computer and graphics card are more powerful will see a tilt shift and better rotation.  Despite the small change, this enabled the simulation to run on a class of laptops that otherwise would not have had access to it.
+
+The code uses a simple FPS counter, available [on github](https://github.com/typpo/millenium-viz/blob/master/web/fps.js).
 
 ## Next steps
 
