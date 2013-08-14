@@ -9,11 +9,11 @@ published: false
 
 I'm a software engineer.  I can make almost anything that you can use on a computer.
 
-The power to create is amazing, but for me it was always accompanied by a sense of powerlessness.  Software is [eating the world](http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html), but it doesn't always contribute directly to advancements in day-to-day life or in places beyond Silicon Valley.
+The power to create is amazing, but for me it was always accompanied by a sense of powerlessness.  Software is [eating the world](http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html), but it doesn't always contribute directly to advancements in day-to-day life or state-of-the-art outside of Silicon Valley.
 
-In my case, I'd always been fascinated by space.  The problem was that I never had a way to contribute to it.  I lacked the math, physics, and lower-level hardware experience that would be more useful to astronomers and the space industry.
+Like most recent college grads, about two years ago I was doing some soul-searching about where I was and what I wanted to work on.  I'd always been fascinated by space.  The problem was that I never had a way to contribute to it.  I lacked the math, physics, and lower-level hardware experience that would be more useful to astronomers and the space industry.
 
-I had spent the past several years hoping I would someday find a way to innovate in space from a software perspective.  This post details what I tried and how it worked.
+I spent the past few years hoping to find a way to create innovative space software.  This post details an attempt at that, and what I learned.
 
 ## Space algorithms
 
@@ -21,13 +21,13 @@ Asteroid detection is a significant challenge for scientists and astronomers.  T
 
 {% img center http://i.imgur.com/MFB4gQA.jpg  %}
 
-Every night, large telescopes search the night sky for object like the Chelyabinsk meteor.  Images are reviewed by computer programs that try to spot moving object.  If an image seems interesting, it is queued to a human operator who is an expert at verifying images of asteroids and rejecting false positives.
+Every night, large telescopes search the night sky for objecast like the Chelyabinsk meteor.  Images are reviewed by computer programs that try to spot moving dots in the night sky.  If an image seems interesting, it is queued for review by a human operator who is an expert at rejecting false positives.
 
-The asteroid that exploded over Russia was relatively small, about 17-20 meters across.  Although the telescopes searching the skies are pretty good - they discover 1 or 2 asteroids per day - smaller asteroids like this are much harder to find via the automated methods used by today's sky surveys.
+The asteroid that exploded over Russia was relatively small, about 17-20 meters across.  Smaller asteroids like this are much harder to find via the automated methods used by today's sky surveys.
+
+As it turns out, the problem of discovering asteroids is a huge one.  It's estimated that there are several **million** undiscovered asteroids in our solar system (we know of about 500,000).
 
 <!-- more -->
-
-The problem of discovering asteroids is a huge one.  It's estimated that there are several **million** undiscovered asteroids in our solar system (we know of about 500,000).
 
 ## A human touch
 
@@ -45,11 +45,11 @@ The end result?  **Over 11,000 images have been reviewed, with hundreds of poten
 
 I'd always been pessimistic about my ability to contribute to space, a passion of mine, as a software engineer.  I'm glad I found a way to do it, and I'd encourage others with long-lost interests to think creatively about how simple web technologies can be applied to new areas.
 
-Technology in sectors such as aerospace tends to lag behind significantly.  My work on space has made use of html5 canvas (via the [KineticJS](http://kineticjs.com/) library), webgl (via [three.js](https://github.com/mrdoob/three.js/)), and other tools that take advantage of more recent advances in browsers.
+Technology in sectors such as aerospace tends to lag behind significantly.  My work on space has made use of canvas (via the [KineticJS](http://kineticjs.com/) library), webgl (via [three.js](https://github.com/mrdoob/three.js/)), and other more recent advances in browsers.
 
-The opportunity to apply new web technologies to old industries creates unprecedented opportunities for the software engineer.  Most people, even software engineers, think of browsers in the same way they did back in 2005.  This mindset ignores the developments in browsers that have taken place in the past couple years.  Significant boosts to adoption are ongoing, and not many people are taking advantage of it.
+The opportunity to apply new web technologies to old industries puts the software engineer in a unique position.  But most people - even software engineers - think of browsers in the same way they did back in 2005.  This mindset ignores new developments in the past couple years.  Not many people and industries are taking advantage of new browser tech.
 
-Here are just some of the latest developments that I've experimented with over the course of the entire Asterank project (which was acquired by Planetary Resources back in May):
+Here are just some of the latest browser technologies I've experimented with over the course of the entire Asterank project (which was acquired by Planetary Resources back in May):
 
 ### SVG and Canvas
 
@@ -59,10 +59,18 @@ These are pretty well known, but perhaps underutilized.  There are huge data vis
 
 Javascript isn't just a way to play with the DOM in a single thread.  You can do meaningful work off the main UI thread with the [web workers API](http://ejohn.org/blog/web-workers/) that is slowly but surely making its way into every modern browser.
 
-### WebGL/WebCL, and GPGPU
+### WebGL/WebCL and GPGPU
 
 I've already [written a bit](http://www.ianww.com/blog/2012/08/05/how-i-built-a-webgl-canvas-visualization-with-no-graphics-knowledge/) about this, but WebGL is a great way to make stunning, performant visualizations with the power of graphics hardware.  This unlocks a whole realm of possibilities, especially once [WebCL](http://www.khronos.org/webcl/) is widely adopted, which will open the doors to programmig for the GPU on the web.
 
 ### WebRTC
 
-The standard is still under development, but [WebRTC](http://www.webrtc.org/) APIs are already available in two major browsers.  They are going to unlock and entirely new class of web apps that force traditional approaches to video, file transfer, etc. out of the picture.
+The standard is still under development, but [WebRTC](http://www.webrtc.org/) APIs are already available in two major browsers.  They are going to unlock an entirely new class of web apps that forces traditional approaches to video, file transfer, etc. out of the picture.
+
+### There's more...
+
+I haven't mentioned websockets, localstorage, and so on.  [HTML5 Rocks](http://www.html5rocks.com/en/) is a great resource for this stuff.
+
+## Takeaway:
+
+
