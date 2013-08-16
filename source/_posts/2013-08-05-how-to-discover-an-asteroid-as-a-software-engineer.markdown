@@ -21,35 +21,33 @@ Asteroid detection is a significant challenge for scientists and astronomers.  T
 
 {% img center http://i.imgur.com/MFB4gQA.jpg  %}
 
-Every night, large telescopes search the night sky for objecast like the Chelyabinsk meteor.  Images are reviewed by computer programs that try to spot moving dots in the night sky.  If an image seems interesting, it is queued for review by a human operator who is an expert at rejecting false positives.
+Every night, large telescopes search the night sky for objects like the Chelyabinsk meteor.  Images are reviewed by computer programs that try to spot moving dots in the night sky.  If an image seems interesting, it is queued for review by a human operator who is an expert at rejecting false positives.
 
-The asteroid that exploded over Russia was relatively small, about 17-20 meters across.  Smaller asteroids like this are much harder to find via the automated methods used by today's sky surveys.
-
-As it turns out, the problem of discovering asteroids is a huge one.  It's estimated that there are several **million** undiscovered asteroids in our solar system (we know of about 500,000).
+Small steroids like the one that exploded over Russia are much harder to find via the automated methods used by today's sky surveys.  It's estimated there are **millions** of undiscovered small asteroids.
 
 <!-- more -->
 
 ## A human touch
 
-Asteroid discovery is the domain of large sky surveys, typically affiliated with academic institutions and supported by government funding.  Given the fact that funding is limited and automated approaches were not successfully finding the especially hard-to-see asteroids, I decided to prototype a way to improve this system.
+The Earth is threatened because automated approaches can miss hard-to-see asteroids. I prototyped a solution to this problem.
 
 The result is a web app called [Asterank Discover](http://asterank.com/discover), which gathers upwards of half a million images of the night sky and presents them in an intelligent manner for crowdsourced review.
 
-Users are shown short animated movies of the night sky that make it easier to spot asteroids.  They can mark interesting areas of images and flag poor quality images.  The app also occasionally throws in control images, so we can get a good sense of whose responses are trustworthy.
+Users are shown short animated movies of the night sky that make it easier to spot asteroids.  They can mark interesting areas of images and flag poor quality images.  The app occasionally throws in control images so I get a good sense of whose responses are trustworthy.
 
 [{% img center http://i.imgur.com/6Ajvy2N.png?1 %}](http://asterank.com/discover)
 
-The end result?  **Over 11,000 images have been reviewed, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by an underqualified software engineer..
+The end result?  **Over 11,000 images have been reviewed, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by some software engineer.
 
-## The browser is way more powerful than you think
+## The browser is underutilized
 
-I'd always been pessimistic about my ability to contribute to space, a passion of mine, as a software engineer.  I'm glad I found a way to do it, and I'd encourage others with long-lost interests to think creatively about how simple web technologies can be applied to new areas.
+I'd always been pessimistic about my ability to contribute to space, a passion of mine, from a pure computer science perspective.  But this project was well within reach.  I'd encourage others with long-lost interests to think creatively about how simple web technologies can be applied to new areas.
 
-Technology in sectors such as aerospace tends to lag behind significantly.  My work on space has made use of canvas (via the [KineticJS](http://kineticjs.com/) library), webgl (via [three.js](https://github.com/mrdoob/three.js/)), and other more recent advances in browsers.
+It's no surprise that technology in non-tech sectors tends to lag significantly.  This is an advantage for engineers looking for side projects.  My work on space has made use of canvas (via the [KineticJS](http://kineticjs.com/) library), webgl (via [three.js](https://github.com/mrdoob/three.js/)), and other more recent advances in browsers.
 
-The opportunity to apply new web technologies to old industries puts the software engineer in a unique position.  But most people - even software engineers - think of browsers in the same way they did back in 2005.  This mindset ignores new developments in the past couple years.  Not many people and industries are taking advantage of new browser tech.
+The opportunity to apply new web technologies to old industries puts us in a unique position.  Unfortunately, most people - even software engineers - think of browsers in the same way they did back in 2005.  They're unaware that taking advantage of emerging tech (like new browser developments) can significantly transform other industries.
 
-Here are just some of the latest browser technologies I've experimented with over the course of the entire Asterank project (which was acquired by Planetary Resources back in May):
+Here are just some of the latest browser technologies I've experimented with over the course of the entire Asterank project (which was acquired by Planetary Resources in May):
 
 ### SVG and Canvas
 
@@ -73,4 +71,4 @@ I haven't mentioned websockets, localstorage, and so on.  [HTML5 Rocks](http://w
 
 ## Takeaway:
 
-
+limited funding
