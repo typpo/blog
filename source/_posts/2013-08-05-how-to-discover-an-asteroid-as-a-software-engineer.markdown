@@ -3,7 +3,7 @@ layout: post
 title: "How a software engineer can discover an asteroid"
 date: 2013-08-05 13:21
 comments: true
-categories: space
+categories: space, tech
 published: false
 ---
 
@@ -37,7 +37,7 @@ Users are shown short animated movies of the night sky that make it easier to sp
 
 [{% img center http://i.imgur.com/6Ajvy2N.png?1 %}](http://asterank.com/discover)
 
-The end result?  **Over 11,000 images have been reviewed, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by some software engineer.
+The end result?  In about 2 months, **over 14,000 images were reviewed, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by some software engineer.
 
 ## The browser is underutilized
 
@@ -51,19 +51,19 @@ Here are just some of the latest browser technologies I've experimented with ove
 
 ### SVG and Canvas
 
-These are pretty well known, but perhaps underutilized.  There are huge data visualizations opportunities that are waiting out there.  [Asterank](http://asterank.com) was a start.
+These are well known in the tech industry, but perhaps not used as much as they could be elsewhere.  There are huge data visualizations opportunities waiting out there, which [Asterank](http://asterank.com) capitalized on.
 
 ### Web Workers
 
-Javascript isn't just a way to play with the DOM in a single thread.  You can do meaningful work off the main UI thread with the [web workers API](http://ejohn.org/blog/web-workers/) that is slowly but surely making its way into every modern browser.
+Javascript isn't just a way to manipulate the DOM in a single thread.  You can do meaningful work off the main UI thread with the [web workers API](http://ejohn.org/blog/web-workers/), which is supported by most modern browsers.
 
 ### WebGL/WebCL and GPGPU
 
-I've already [written a bit](http://www.ianww.com/blog/2012/08/05/how-i-built-a-webgl-canvas-visualization-with-no-graphics-knowledge/) about this, but WebGL is a great way to make stunning, performant visualizations with the power of graphics hardware.  This unlocks a whole realm of possibilities, especially once [WebCL](http://www.khronos.org/webcl/) is widely adopted, which will open the doors to programmig for the GPU on the web.
+I've already [written a bit](http://www.ianww.com/blog/2012/08/05/how-i-built-a-webgl-canvas-visualization-with-no-graphics-knowledge/) about this, but WebGL is a great way to make stunning, performant visualizations that harness the power of graphics hardware.  This unlocks a whole realm of possibilities.  Related technologies like [WebCL](http://www.khronos.org/webcl/), once widely adopted, will make it even easier to use the GPU on the web.
 
 ### WebRTC
 
-The standard is still under development, but [WebRTC](http://www.webrtc.org/) APIs are already available in two major browsers.  They are going to unlock an entirely new class of web apps that forces traditional approaches to video, file transfer, etc. out of the picture.
+The standard is still under development, but [WebRTC](http://www.webrtc.org/) APIs are already available in two major browsers.  WebRTC will unlock an entirely new class of web apps that will change video, file transfer, etc. significantly.
 
 ### There's more...
 
@@ -71,4 +71,4 @@ I haven't mentioned websockets, localstorage, and so on.  [HTML5 Rocks](http://w
 
 ## Takeaway:
 
-limited funding
+As an engineer with no funding and a hobby interest, you can make real innovations to deep-rooted industries.  Exercizing knowledge of newer technologies that haven't percolated beyond the tech world can be really powerful.
