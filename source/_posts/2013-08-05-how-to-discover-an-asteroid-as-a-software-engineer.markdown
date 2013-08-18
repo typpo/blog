@@ -13,7 +13,7 @@ The power to create is amazing, but for me it was always accompanied by a sense 
 
 Like most recent college grads, about two years ago I was doing some soul-searching about where I was and what I wanted to work on.  I'd always been fascinated by space.  The problem was that I never had a way to contribute to it.  I lacked the math, physics, and lower-level hardware experience that would be more useful to astronomers and the space industry.
 
-I spent the past few years hoping to find a way to create innovative space software.  This post details an attempt at that, and what I learned.
+I spent the past two months hoping to find a way to innovative on the science of astronomy.  This post details my attempt and what I learned.
 
 ## Space algorithms
 
@@ -37,7 +37,7 @@ Users are shown short animated movies of the night sky that make it easier to sp
 
 [{% img center http://i.imgur.com/6Ajvy2N.png?1 %}](http://asterank.com/discover)
 
-The end result?  In about 2 months, **over 14,000 images were reviewed, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by some software engineer.
+The end result?  In about 2 months, **over 17,000 images have been reviewed since launch, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by some software engineer.
 
 ## The browser is underutilized
 
@@ -71,4 +71,4 @@ I haven't mentioned websockets, localstorage, and so on.  [HTML5 Rocks](http://w
 
 ## Takeaway:
 
-As an engineer with no funding and a hobby interest, you can make real innovations to deep-rooted industries.  Exercizing knowledge of newer technologies that haven't percolated beyond the tech world can be really powerful.
+As an engineer with no funding and a hobby interest, you can make real innovations to deep-rooted industries.  Newer technologies that haven't percolated beyond the tech world can be really powerful.
