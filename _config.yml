@@ -53,6 +53,8 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # post_asides:
 # page_asides:
 
+sidebar: collapse
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
