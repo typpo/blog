@@ -7,13 +7,13 @@ categories: space, tech
 published: false
 ---
 
-I'm a software engineer.  I can make almost anything that you can use on a computer.
+I'm a software engineer.  I have incredible opportunities to work on fun and interesting problems.
 
-The power to create is amazing, but for me it was always accompanied by a sense of powerlessness.  Software is [eating the world](http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html), but it doesn't always contribute directly to advancements in day-to-day life or state-of-the-art outside of Silicon Valley.
+I work at a consumer startup, but I've always been fascinated by space.  And like any recent grad, I've been soul-searching about what I want to do in the long term.
 
-Like most recent college grads, about two years ago I was doing some soul-searching about where I was and what I wanted to work on.  I'd always been fascinated by space.  The problem was that I never had a way to contribute to it.  I lacked the math, physics, and lower-level hardware experience that would be more useful to astronomers and the space industry.
+I'm not in the space industry because I've never felt like I had the math, physics, and embedded hardware skills that would be useful to astronomers and the space industry.
 
-I spent the past two months hoping to find a way to innovative on the science of astronomy.  This post details my attempt and what I learned.
+Two months ago, I set aside my doubts and started trying to innovate in the space industry.
 
 ## Space algorithms
 
@@ -71,4 +71,7 @@ I haven't mentioned websockets, localstorage, and so on.  [HTML5 Rocks](http://w
 
 ## Takeaway:
 
-As an engineer with no funding and a hobby interest, you can make real innovations to deep-rooted industries.  Newer technologies that haven't percolated beyond the tech world can be really powerful.
+As an engineer with no funding and a hobby interest, you can make real innovations to deep-rooted industries.
+
+Software is [eating the world](http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html), but its spread beyond Silicon Valley can be slow.  People should actively seek to take advantage of newer technologies that haven't percolated beyond the tech world yet.
+

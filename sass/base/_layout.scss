@@ -1,4 +1,4 @@
-$max-width: 1300px !default;
+$max-width: 960px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -48,6 +48,7 @@ body {
   max-width: $max-width;
   position: relative;
   margin: 0 auto;
+  margin-top: 18px;
   @media only screen and (min-width: 992px) {
     //margin: 0 70px auto;
   }
