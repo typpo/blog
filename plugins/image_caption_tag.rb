@@ -29,7 +29,8 @@ module Jekyll
       output = super
       if @img
         "<span class='#{('caption-wrapper ' + @class).rstrip}'>" +
-          "<img class='caption' src='#{@img}' width='#{@width}' height='#{@height}' alt='#{@title}' title='#{@title}'>" +
+        #"<span class='caption-wrapper' style='margin:0 auto;'>" +
+          "<img class='caption #{@class.rstrip}' src='#{@img}' width='#{@width}' height='#{@height}' alt='#{@title}' title='#{@title}'>" +
           "<span class='caption-text'>#{@title}</span>" +
         "</span>"
       else
