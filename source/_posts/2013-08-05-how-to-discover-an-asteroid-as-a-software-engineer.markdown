@@ -9,7 +9,7 @@ published: false
 
 I'm a computer scientist.  I have incredible opportunities to work on fun and interesting problems.
 
-Sometimes, that isn't always enough.  I've never felt like I had the math, physics, and embedded hardware background to pursue space, one of my biggest interest since I was a kid.  And like any recent grad, I've been soul-searching for what I want to do in the long term.
+For some reason, that wasn't always enough.  I've never felt like I had the math, physics, and embedded hardware background to pursue space, one of my biggest interests since I was a kid.  And like any recent grad, I've been soul-searching for what I want to do in the long term.
 
 A year ago, I set aside my doubts and started to innovate in the space industry as a complete outsider.  This post details one of these projects that was reasonably successful.
 
