@@ -4,7 +4,7 @@ title: "How a programmer can discover an asteroid"
 date: 2013-08-05 13:21
 comments: true
 categories: space tech
-published: false
+published: true
 ---
 
 I'm a computer scientist.  I have incredible opportunities to work on fun and interesting problems.
@@ -15,31 +15,31 @@ A year ago, I set aside my doubts and started to innovate in the space industry 
 
 ## Space algorithms
 
-Asteroid detection is a significant challenge for scientists and astronomers.  Thanks to Russian dashcams, we all remember the Chelyabinsk meteor in February 2013.  Space rocks can still take us by surprise and cause significant damage.
+Asteroid detection is a significant challenge for scientists and astronomers.  Thanks to Russian dashcams, we all remember the Chelyabinsk meteor in February 2013 -- space rocks can still take us by surprise and cause significant damage.
 
 {% img center http://i.imgur.com/MFB4gQA.jpg  %}
 
-Every night, large telescopes search the night sky for objects like the Chelyabinsk meteor.  Images are reviewed by computer programs that try to spot moving dots in the night sky.  If an image seems interesting, it is queued for review by a human operator.
+Every night, large telescopes search the night sky for objects like the Chelyabinsk meteor, taking pictures that are reviewed by computer programs looking for moving dots in the night sky.  If an image seems interesting, it is queued for review by a human operator.
 
-Small rocks like the one that exploded over Russia are much harder to find via the automated methods used by today's sky surveys.  In fact, it's estimated there are *millions* of undiscovered small asteroids, some of which are hidden in imagery collected over the past few decades.
+Small rocks like the one that exploded over Russia are much harder to find via the automated methods used in today's sky surveys.  In fact, it's estimated there are *millions* of undiscovered small asteroids, some of which are hidden in imagery collected over the past few decades.
 
 <!-- more -->
 
 ## A human touch
 
-Automated approaches can miss small, dangerous asteroids. My prototype solution is a web app called **[Asterank Discover](http://asterank.com/discover)**, which aggregates upwards of half a million images of the night sky and presents them in an intelligent manner for crowdsourced review.
+Automated approaches can miss small, dangerous asteroids. My prototype solution to this problem is a web app called **[Asterank Discover](http://asterank.com/discover)**, which aggregates upwards of half a million images of the night sky and presents them in an intelligent manner for crowdsourced review.
 
-Users are shown short animations of the night sky that make it easy to spot asteroids.  They mark items of interest and flag poor quality images.  The app uses control images to get a sense of whose responses are trustworthy.
+Users are shown short animations of the night sky that make it easy to spot asteroids and are asked to mark items of interest and flag poor quality images.  The app occasionally serves control images to get a sense of whose responses are trustworthy.
 
 [{% img center http://i.imgur.com/6Ajvy2N.png?1 %}](http://asterank.com/discover)
 
-The end result?  In about 2 months, **over 17,000 images have been reviewed, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by some software engineer.
+The end result?  In about 2 months, **over 20,000 images have been reviewed, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by some software engineer.
 
 ## The browser is underutilized
 
 I've always been pessimistic about my ability to contribute to space from a pure computer science perspective, but this project was well within reach.  The success of the project is a testament to creative thought toward applying simple web technologies to new areas.
 
-It's no surprise that technology in non-tech sectors tends to lag significantly.  This is a HUGE advantage for engineers looking for side projects (or startup ideas).  For example, my work on space has made use of canvas (via the [KineticJS](http://kineticjs.com/) library), webgl (via [three.js](https://github.com/mrdoob/three.js/)), web workers, and other relatively new web technologies.
+It's no surprise that technology in non-tech sectors tends to lag significantly.  This is a HUGE advantage for engineers looking for side projects (or startup ideas).  For example, my work on space has made use of canvas (via the [KineticJS](http://kineticjs.com/) library), webgl (via [three.js](https://github.com/mrdoob/three.js/)), web workers, and other newer web technologies.
 
 Software engineers, therefore, are in a unique position.  Unfortunately, most still think of browsers no differently from how they did in 2005.  They're unaware that taking advantage of new browser standards and other emerging tech can significantly transform outside industries.
 
