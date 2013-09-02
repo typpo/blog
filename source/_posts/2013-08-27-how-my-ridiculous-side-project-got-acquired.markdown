@@ -1,13 +1,19 @@
 ---
 layout: post
-title: "How my ridiculous side project got acquired"
+title: "My side project got acquired - lessons learned"
 date: 2013-08-27 22:03
 comments: true
 categories:
 published: false
 ---
 
-placeholder
+My side project began as a cliche: a programmer  in a coffee shop on his MacBook Air.
+
+In May 2012, [Planetary Resources](http://www.planetaryresources.com/) announced its intent to mine asteroids with the backing of a number of prominent investors including Larry Page, Eric Schmidt, and Ross Perot Jr.
+
+When I heard the announcement, I was very interested.
+
+More recently, the completed a Kickstarter that raised $1.5 million toward the development of a space-based telescope.
 
 ## Bug people
 
@@ -17,11 +23,13 @@ Boomerang is a great tool for this.  I followed up once a month with people I wa
 
 Here's an example email
 
-I bugged my contact at PRI every month
+I bugged my contact at PRI every month.
 
-I bugged scientists at prestigious labs
+I bugged other space companies
 
-I bugged my old college professor
+I bugged scientists at prestigious institutions.
+
+I bugged the professor who taught my 100-person Intro to Astronomy course.
 
 Boomerang is freemium; I didn't wind up needing the paid version, but I considered it and eventually started writing my own self-hosted version, which doesn't quite work yet.
 
