@@ -7,11 +7,11 @@ categories:
 published: false
 ---
 
-My side project began as a cliche: a programmer  in a coffee shop on his MacBook Air.
+My side project began in May 2012 as a cliche: a programmer in a coffee shop on his MacBook Air.  I've never had coffee before in my life.
 
-In May 2012, [Planetary Resources](http://www.planetaryresources.com/) announced its intent to mine asteroids with the backing of a number of prominent investors including Larry Page, Eric Schmidt, and Ross Perot Jr.
+Earlier that week, [Planetary Resources](http://www.planetaryresources.com/) had announced its intent to mine asteroids with the backing of a number of prominent investors (including Larry Page, Eric Schmidt, and Ross Perot Jr).
 
-When I heard the announcement, I was very interested.
+When I heard the announcement, I was very interested.  It was a bold, hyperloopy-esque startup that had incredibly low chances of succeeding
 
 More recently, the completed a Kickstarter that raised $1.5 million toward the development of a space-based telescope.
 
