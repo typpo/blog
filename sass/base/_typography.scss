@@ -1,10 +1,15 @@
 $blockquote: $type-border !default;
 $sans: "Open Sans", "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
+//$serif: 'Roboto Slab', ff-tisa-web-pro, Georgia, Cambria, 'Times New Roman', Times, serif !default;
 // $sans: 'Open Sans', sans-serif;
 //$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
 $serif: $sans;
-$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
+//$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
+$mono: 'Ubuntu Mono' !default;
 //$heading-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
+
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:600,400|Roboto+Slab:400,700|Ubuntu+Mono:400,700);
+
 $heading-font-family: $sans;
 $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $heading-font-family !default;
@@ -40,7 +45,7 @@ h1 {
 }
 
 @media only screen and (min-width: 992px) {
-  body { font-size: 1.15em; }
+  body { font-size: 1.0em; }
   h1 { font-size: 2.0em; line-height: 1.2em; }
 }
 
@@ -65,7 +70,7 @@ h5, section h4, section section h3 {
 h6, section h5, section section h4, section section section h3 {
   font-size: .8em;
 }
-p, blockquote, ul, ol { margin-bottom: 1.5em; }
+p, blockquote, ul, ol { margin-bottom: 1.3em; }
 
 ul { list-style-type: disc;
   ul { list-style-type: circle; margin-bottom: 0px;
