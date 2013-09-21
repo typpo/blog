@@ -45,7 +45,7 @@ article {
   img, video, .flash-video, .caption-wrapper {
     @extend .flex-content;
     @extend .basic-alignment;
-    @include shadow-box;
+    //@include shadow-box;
     &.caption {
       @include reset-shadow-box;
     }
@@ -54,7 +54,8 @@ article {
     display: inline-block;
     margin-bottom: 10px;
     .caption-text {
-      background: #fff;
+      margin-top: -23px;
+      //background: #fff;
       text-align: center;
       font-size: .8em;
       color: #666;
