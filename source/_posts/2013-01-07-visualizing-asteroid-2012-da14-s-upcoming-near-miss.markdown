@@ -6,8 +6,6 @@ comments: true
 categories: [asterank, asteroids, 2012 DA14, visualization]
 ---
 
-## Introduction
-
 2012 DA14 is a near-Earth asteroid that will pass extremely close to the Earth by astronomical standards around February 15, 2013.  At its closest, 2012 DA14 will pass nearer than the moon and likely within the orbits of some geosynchronous satellites.  It was first discovered and observed less than a year ago, in February 2012.
 
 <!-- more -->
