@@ -23,7 +23,7 @@ Earlier that week, [Planetary Resources](http://www.planetaryresources.com/) had
 
 I contacted many people who could help me materially or by critiquing my project.
 
-This is common advice, but people usually don't take it seriously.  The key is being patient and not coming off as desperate.  Follow up every two weeks if you've had near-term contact, one month if you haven't.
+The key is being patient and not coming off as desperate.  Follow up every two weeks if you've had near-term contact, one month if you haven't.
 
 ### Cold email guidelines
 
@@ -33,7 +33,7 @@ Here's how I initially contacted people:
   * Tell them what my goal is.
   * Ask them for something that will help me accomplish this goal.
 
-I followed up with:
+This shouldn't take more than 2 or 3 short paragraphs.  Follow-up emails should be even shorter:
 
   * Update on project - latest successes, features, etc. (skip this if you're following up on a promise they've already made).
   * Ask them for something.
@@ -54,9 +54,9 @@ Most of your emails won't get read.  This can be insulting and stressful.  Hang 
 
 {% img center http://i.imgur.com/Y7woyuB.png?1 %}
 
-Over time, people started initiating contact instead of the other way around, and my network grew.
+Over time, people started initiating contact instead of the other way around, and my network grew.  Persistent emails were the single largest contributing factor in the success of Asterank.
 
-## Lesson 2: Viral content can be a great start, but it's not a sustainable strategy.
+## Lesson 2: Viral/social content is unpredictable
 
 When I launched, the only self-promotion I did was a [Hacker News post](https://news.ycombinator.com/item?id=3967670), which gained a total of 2 points (I deserved this for giving it such an awful linkbait title).
 
@@ -66,9 +66,9 @@ Fortunately, someone picked it up and Asterank was featured on [Universe Today](
 
 Did you know you can "submit" to HN as many times as you want?  If no one is interested in your project, just blog about it until they notice it.  I posted [Asterank Discover](http://asterank.com/discover) on HN and it got 5 points.  I wrote a [blog post](www.ianww.com/blog/2013/08/05/how-a-programmer-can-discover-an-asteroid/) about it that made the front page.  Go figure.
 
-Viral/social traffic fades quickly and is mostly full of people who are not that interested in what you're making.  It was important for generating opportunities, but the results were not permanent and the marginal benefit decreases quickly.
+Caveat: social traffic fades quickly and is mostly full of people who are not that interested in what you're making.  It was helpful in getting started, but the results were not permanent and the marginal benefit decreases quickly.
 
-## Lesson 3: Giving feedback on your site should be very easy.
+## Lesson 3: Giving feedback on your site should be very easy
 
 Some of my best contacts who contributed significantly to the project came through Asterank's About/Feedback page.  I provided my email address and added a contact form.  People tend to prefer the form, but I recommend having both (the form is low-friction, but people who want to speak directly prefer email).
 
@@ -92,25 +92,17 @@ Most people are surprised when I tell them Asterank is entirely [open source](ht
 
 Most people who said they wanted to participate never actually contributed, but they had valuable ideas.  Open sourcing was a great way to meet people who wanted to support and innovate the project.
 
-## Lesson 6: Watch your analytics to understand where traffic's coming from
+## Lesson 6: There might be leads in your analytics
 
-Scan your analytics every now and then, especially referers.  I made a valuable contact just by noticing a referral from a company email site.  I reached out without referencing that I was watching the logs, but it's much easier to "cold" contact someone you know is already interested.
+Scan your analytics every now and then, especially referers.  I made a valuable contact just by noticing a link from company email.  I reached out without referencing that I was watching the logs, but it's much easier to "cold" contact someone you know is already interested.
 
-When I sent emails, I sometimes tracked clicks by linking `http://asterank.com/?f=n`, where n is a unique string.  This way, even if they didn't respond, I could tell who was interested enough to click through.
-
-## Lesson 7: Take every random opportunity that arises
-
-I was invited to ideacity, Canada's smaller and slightly more eccentric version of TED, because the organizer read an article about Asterank in the Daily Mail, which quoted the Universe Today article.  This was unexpected.
-
-I've gotten a handful of other interview requests, scientific collaborators, game devs get in touch, etc. - all interesting and unique opportunities.
-
-This fall, I'm headed to the World Technology Awards in New York.  Someone nominated me in the space category, but I was beaten by Elon Musk, Peter Diamandis, and a couple other folks.  No surprise there - but now I have the opportunity to stand awkwardly amongst much older, more accomplished people with the same interests as me.  I'm terrified but who knows what will come of it.
+When I sent emails, I sometimes tracked clicks by linking `http://asterank.com/?f=n`, where n is a unique string.  This way, even if they didn't respond, I could tell who was interested enough to click.
 
 ## Lesson 8: Stick with it
 
-I have 5+ side projects. I feel some of them could be businesses, but I always get bored after a couple weeks.  Asterank was the only side project that I've stuck with for over a year, and it paid off even though I didn't think I could ever monetize it.
+I have 5+ side projects. I feel some of them could be businesses, but I always get bored after a couple weeks.  Asterank was the only side project that I've stuck with for over a year, and it paid off even though it could never really be monetized.
 
-{% imgcap center http://i.imgur.com/PSu18sK.png I have no life. %}
+{% imgcap center http://i.imgur.com/PSu18sK.png Maybe I should get out more. %}
 
 ## Be grateful
 
