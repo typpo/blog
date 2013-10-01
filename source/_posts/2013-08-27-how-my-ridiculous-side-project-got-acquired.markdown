@@ -13,11 +13,13 @@ Earlier that week, [Planetary Resources](http://www.planetaryresources.com/) had
 
 [Asterank](http://asterank.com) began as a thought experiment: how much are asteroids really worth?  The media was publishing wild estimates without any scientific basis.  No one was actually doing the math.
 
-[{% imgcap center http://i.imgur.com/Lxw7Ffqm.jpg %}](http://asterank.com)
+[{% img center http://i.imgur.com/Lxw7Ffqm.jpg %}](http://asterank.com)
 
 13 months later, when Asterank was acquired by Planetary Resources, it was much more than an asteroid value calculator.  It was a full astronomical toolkit that included web scrapers, a data pipeline, powerful visualizations, and the ability to discover new asteroids.
 
-**I had no idea what I was doing.**  I still don't.  But here are some lessons I've learned along the way:
+**I had no idea what I was doing.**  But here are some lessons I've learned along the way:
+
+<!-- more -->
 
 ## Lesson 1: Bug people
 
@@ -40,7 +42,7 @@ This shouldn't take more than 2 or 3 short paragraphs.  Follow-up emails should 
 
 ### Choosing the victims
 
-Here are some of the people I emailed regularly:
+Here are some of the people I emailed with some regularity:
 
   * my contact at Planetary Resources.
   * contacts at many other space companies.
@@ -62,17 +64,17 @@ When I launched, the only self-promotion I did was a [Hacker News post](https://
 
 Fortunately, someone picked it up and Asterank was featured on [Universe Today](http://www.universetoday.com/95169/the-most-profitable-asteroid-is/), a popular space blog.  A couple people including the Planetary Resources leadership contacted me afterwards.  From then on, traffic was steady but with major spikes from aggregators, news coverage, etc.
 
-{% imgcap center http://i.imgur.com/hfG0gnH.png Merry Christmas - the site is down. %}
+{% imgcap center http://i.imgur.com/hfG0gnH.png Merry Christmas!  The site is down. %}
 
-Did you know you can "submit" to HN as many times as you want?  If no one is interested in your project, just blog about it until they notice it.  I posted [Asterank Discover](http://asterank.com/discover) on HN and it got 5 points.  I wrote a [blog post](www.ianww.com/blog/2013/08/05/how-a-programmer-can-discover-an-asteroid/) about it that made the front page.  Go figure.
+Did you know you can "submit" to HN as many times as you want?  If no one is interested in your project, just blog about it until they notice it.  I posted [Asterank Discover](http://asterank.com/discover) on HN and it got 5 points.  Then I wrote a [blog post](www.ianww.com/blog/2013/08/05/how-a-programmer-can-discover-an-asteroid/) about it that made the front page.  Go figure.
 
 Caveat: social traffic fades quickly and is mostly full of people who are not that interested in what you're making.  It was helpful in getting started, but the results were not permanent and the marginal benefit decreases quickly.
 
 ## Lesson 3: Giving feedback on your site should be very easy
 
-Some of my best contacts who contributed significantly to the project came through Asterank's About/Feedback page.  I provided my email address and added a contact form.  People tend to prefer the form, but I recommend having both (the form is low-friction, but people who want to speak directly prefer email).
+Some of my best contacts who made significant contributions came through Asterank's About/Feedback page.  I provided my email address and added a contact form.  People tend to prefer the form, but I recommend having both (the form is low-friction, but some feel it is too indirect).
 
-{% imgcap center http://i.imgur.com/FTOZyrJm.png A basic email form takes a few minutes to add but is extremely valuable. %}
+{% imgcap center http://i.imgur.com/FTOZyrJm.png A basic email form only takes a few minutes to add. %}
 
 I also added a way to "subscribe to updates," but it actually just sent me their email address.  I used this to gage interest; there was no point in setting up a mailing list before I knew people would use it.
 
@@ -80,17 +82,17 @@ Regardless of how you want to be contacted, an easy-to-find About page is essent
 
 ## Lesson 4: LinkedIn can sometimes be useful
 
-LinkedIn is full of bullshit, but most people are on it.  This is especially useful if you're tackling something outside tech.  It allowed the Planetary Resources guys to find me initially.
+LinkedIn is full of bullshit, but most people are on it.  This is very important if you're tackling an industry outside tech.  It allowed the Planetary Resources guys to find me initially.
 
 {% imgcap center http://i.imgur.com/LtfZbIxm.png I am thankful for gmail filters. %}
 
-Many software engineers I know question the value of LinkedIn.  It may cost you some sanity, but maintaining a basic, up-to-date profile was worth it.
+I know many software engineers question the value of LinkedIn.  It may cost you some sanity, but maintaining a basic, up-to-date profile was worth it.
 
 ## Lesson 5: Open source everything you can
 
-Most people are surprised when I tell them Asterank is entirely [open source](https://github.com/typpo/asterank).  It lends an air of transparency and invites collaborators.  The project is better off for it.
+Most people are surprised when I tell them Asterank is entirely [open source](https://github.com/typpo/asterank).  It lends an air of transparency and invites collaborators.  The project received valuable feedback as a result.
 
-Most people who said they wanted to participate never actually contributed, but they had valuable ideas.  Open sourcing was a great way to meet people who wanted to support and innovate the project.
+Most people who said they wanted to participate never actually contributed, but they had good ideas.  Open sourcing was a great way to meet people who offered moral support and perspectives on innovation and future growth.
 
 ## Lesson 6: There might be leads in your analytics
 
@@ -100,14 +102,16 @@ When I sent emails, I sometimes tracked clicks by linking `http://asterank.com/?
 
 ## Lesson 8: Stick with it
 
-I have 5+ side projects. I feel some of them could be businesses, but I always get bored after a couple weeks.  Asterank was the only side project that I've stuck with for over a year, and it paid off even though it could never really be monetized.
+I have 5+ side projects. Some of them could be businesses, but I always get bored after a couple weeks.  Asterank was the only project that I've stuck with for over a year, and it paid off even though there is not a clear way to monetize it.
 
-{% imgcap center http://i.imgur.com/PSu18sK.png Maybe I should get out more. %}
+{% imgcap center http://i.imgur.com/PSu18sK.png I should get out more. %}
 
-## Be grateful
+It's hard to predict what will be valuable as a side project.  For hobbies, working on what you're most passionate about is the best way to get a return.  Otherwise you lack the discipline to follow through.
 
-I had to make some hard decisions and turn down some great opportunities to wind up here.  I'm really lucky to have had those options.
+## Lesson 9: Be grateful
 
-I'm excited to learn and see where this takes me.
+I've had to make some hard decisions and turn down some great opportunities to wind up here.  I'm really lucky to have options and support from friends, family, and coworkers.
+
+I've accepted a Software Engineer position at Planetary Resources starting in November.  I'm very excited to learn and see where this takes me.
 
 Good luck!
