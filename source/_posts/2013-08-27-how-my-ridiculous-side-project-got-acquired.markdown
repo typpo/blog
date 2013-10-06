@@ -1,31 +1,41 @@
 ---
 layout: post
-title: "My side project got acquired - lessons learned"
+title: "What I learned from getting my side project acquired"
 date: 2013-08-27 22:03
 comments: true
 categories:
 published: false
 ---
 
-The story of my side project starts in May 2012 as a tired cliche: a programmer in a coffee shop on his MacBook Air.
+I started [Asterank](http://asterank.com) in May 2012.  Earlier that week, [Planetary Resources](http://www.planetaryresources.com/) [announced](http://www.space.com/15395-asteroid-mining-planetary-resources.html) its intent to mine water and valuable materials from asteroids.  Like many others, I was intrigued.  It was an impossible idea with an inspiring long-term vision.
 
-Earlier that week, [Planetary Resources](http://www.planetaryresources.com/) had [announced](http://www.space.com/15395-asteroid-mining-planetary-resources.html) its intent to mine water and valuable materials from asteroids.  Like many others, I was intrigued.  It was a bold, impossible startup that had long-term vision and pushed a lot of boundaries.
-
-[Asterank](http://asterank.com) began as a thought experiment: how much are asteroids really worth?  The media was publishing wild estimates without any scientific basis.  No one was actually doing the math.
+My project began as a thought experiment: how much are asteroids really worth?  The media was publishing wild estimates without any scientific basis.  No one was taking a principled approach toward estimating asteroid content and value.  So, on a weekend afternoon with nothing better to do, I wrote the first version at a cafe in downtown Mountain View.
 
 [{% img center http://i.imgur.com/Lxw7Ffqm.jpg %}](http://asterank.com)
 
 13 months later, when Asterank was acquired by Planetary Resources, it was much more than an asteroid value calculator.  It was a full astronomical toolkit that included web scrapers, a data pipeline, powerful visualizations, and the ability to discover new asteroids.
 
-**I had no idea what I was doing.**  But here are some lessons I've learned along the way:
+**I had no idea what I was doing.**  But here are some lessons I learned along the way:
 
 <!-- more -->
 
 ## Lesson 1: Bug people
 
-I contacted many people who could help me materially or by critiquing my project.
+I contacted many people who could help materially (expertise, advice, publicity) or by critiquing my project.
 
 The key is being patient and not coming off as desperate.  Follow up every two weeks if you've had near-term contact, one month if you haven't.
+
+### Who to contact
+
+Write as many people as you can.  For me, this included:
+
+  * my contact at Planetary Resources.
+  * contacts at many other space companies or organizations.
+  * scientists at research institutions.
+  * scientists at NASA.
+  * space bloggers.
+  * the professor from my 100-person Intro to Astronomy course.
+  * tech sources that may find my visualizations interesting.
 
 ### Cold email guidelines
 
@@ -39,16 +49,6 @@ This shouldn't take more than 2 or 3 short paragraphs.  Follow-up emails should 
 
   * Update on project - latest successes, features, etc. (skip this if you're following up on a promise they've already made).
   * Ask them for something.
-
-### Choosing the victims
-
-Here are some of the people I emailed with some regularity:
-
-  * my contact at Planetary Resources.
-  * contacts at many other space companies.
-  * scientists at prestigious institutions.
-  * space bloggers.
-  * the professor who taught my 100-person Intro to Astronomy course.
 
 Most of your emails won't get read.  This can be insulting and stressful.  Hang in there and take nothing personally.
 
@@ -70,45 +70,48 @@ Did you know you can "submit" to HN as many times as you want?  If no one is int
 
 Caveat: social traffic fades quickly and is mostly full of people who are not that interested in what you're making.  It was helpful in getting started, but the results were not permanent and the marginal benefit decreases quickly.
 
-## Lesson 3: Giving feedback on your site should be very easy
+## Lesson 3: Users should be able to provide feedback very easily
 
-Some of my best contacts who made significant contributions came through Asterank's About/Feedback page.  I provided my email address and added a contact form.  People tend to prefer the form, but I recommend having both (the form is low-friction, but some feel it is too indirect).
+Some of my best contacts came through Asterank's About page.  I provided my email address and added a contact form.  I recommend having both (the form is low-friction, but some dislike the indirectness).
 
 {% imgcap center http://i.imgur.com/FTOZyrJm.png A basic email form only takes a few minutes to add. %}
 
 I also added a way to "subscribe to updates," but it actually just sent me their email address.  I used this to gage interest; there was no point in setting up a mailing list before I knew people would use it.
 
-Regardless of how you want to be contacted, an easy-to-find About page is essential.  It facilitated several job opportunities, conference invitiations, and media interview requests.
+Regardless of how you want to be contacted, an easy-to-find About page is essential.  It facilitated several job opportunities, conference invitiations, and media interviews.
 
-## Lesson 4: LinkedIn can sometimes be useful
-
-LinkedIn is full of bullshit, but most people are on it.  This is very important if you're tackling an industry outside tech.  It allowed the Planetary Resources guys to find me initially.
-
-{% imgcap center http://i.imgur.com/LtfZbIxm.png I am thankful for gmail filters. %}
-
-I know many software engineers question the value of LinkedIn.  It may cost you some sanity, but maintaining a basic, up-to-date profile was worth it.
-
-## Lesson 5: Open source everything you can
-
-Most people are surprised when I tell them Asterank is entirely [open source](https://github.com/typpo/asterank).  It lends an air of transparency and invites collaborators.  The project received valuable feedback as a result.
-
-Most people who said they wanted to participate never actually contributed, but they had good ideas.  Open sourcing was a great way to meet people who offered moral support and perspectives on innovation and future growth.
-
-## Lesson 6: There might be leads in your analytics
+## Lesson 4: There might be leads in your analytics
 
 Scan your analytics every now and then, especially referers.  I made a valuable contact just by noticing a link from company email.  I reached out without referencing that I was watching the logs, but it's much easier to "cold" contact someone you know is already interested.
 
 When I sent emails, I sometimes tracked clicks by linking `http://asterank.com/?f=n`, where n is a unique string.  This way, even if they didn't respond, I could tell who was interested enough to click.
 
-## Lesson 8: Stick with it
 
-I have 5+ side projects. Some of them could be businesses, but I always get bored after a couple weeks.  Asterank was the only project that I've stuck with for over a year, and it paid off even though there is not a clear way to monetize it.
+## Lesson 5: LinkedIn can sometimes be useful
+
+LinkedIn can be frustrating for software engineers, but it is especially important if you're tackling an industry outside tech.  It provided an easy way for the Planetary Resources guys to find me.
+
+{% imgcap center http://i.imgur.com/LtfZbIxm.png LinkedIn has lots of recruiters. %}
+
+I know many software engineers who question the value of LinkedIn.  It may cost you some sanity, but maintaining a basic, up-to-date profile was worth it.
+
+## Lesson 6: Open source everything you can
+
+Most people are surprised when I tell them Asterank is entirely [open source](https://github.com/typpo/asterank).  It lends an air of transparency and invites collaborators.  The project receives valuable feedback as a result.
+
+Most people who said they wanted to participate never actually contributed, but they had good ideas.  The additional perspective helped guide the growth of Asterank and the "words of encouragement" helped me focus on doing more.
+
+People in tech are often interested in how technologies are specifically used in certain applications.  Asterank capitalized on this, with its webgl visualizations making rounds in the webgl community.  You can get the attention of smart and well-connected people by showcasing interesting technology applications.
+
+## Lesson 7: Stick with it
+
+I have 5+ side projects. I'd like to make businesses out of them, but I often lose interest after a couple weeks.  Asterank was the only project that I've stuck with for over a year, and it paid off even though there wasn't a clear path to monetization.
 
 {% imgcap center http://i.imgur.com/PSu18sK.png I should get out more. %}
 
 It's hard to predict what will be valuable as a side project.  For hobbies, working on what you're most passionate about is the best way to get a return.  Otherwise you lack the discipline to follow through.
 
-## Lesson 9: Be grateful
+## Lesson 8: Be grateful
 
 I've had to make some hard decisions and turn down some great opportunities to wind up here.  I'm really lucky to have options and support from friends, family, and coworkers.
 
