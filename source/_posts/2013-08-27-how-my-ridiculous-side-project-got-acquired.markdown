@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "What I learned from getting my side project acquired"
+title: "Things I learned from getting my side project acquired"
 date: 2013-08-27 22:03
 comments: true
 categories:
 published: false
 ---
 
-I started [Asterank](http://asterank.com) in May 2012.  Earlier that week, [Planetary Resources](http://www.planetaryresources.com/) [announced](http://www.space.com/15395-asteroid-mining-planetary-resources.html) its intent to mine water and valuable materials from asteroids.  Like many others, I was intrigued.  It was an impossible idea with an inspiring long-term vision.
+I started [Asterank](http://asterank.com) in May 2012.  Earlier that week, Planetary Resources [announced](http://www.space.com/15395-asteroid-mining-planetary-resources.html) its intent to mine water and valuable materials from asteroids.  Like many others, I was intrigued.  It was an impossible idea with an inspiring long-term vision.
 
-My project began as a thought experiment: how much are asteroids really worth?  The media was publishing wild estimates without any scientific basis.  No one was taking a principled approach toward estimating asteroid content and value.  So, on a weekend afternoon with nothing better to do, I wrote the first version at a cafe in downtown Mountain View.
+My project began as a thought experiment: how much are asteroids really worth?  The media was publishing wild estimates without any scientific basis.  No one was taking a principled approach toward cataloging asteroid content and value.  So, on a weekend afternoon with nothing better to do, I wrote the first version at a cafe in downtown Mountain View.
 
 [{% img center http://i.imgur.com/Lxw7Ffqm.jpg %}](http://asterank.com)
 
@@ -21,13 +21,13 @@ My project began as a thought experiment: how much are asteroids really worth?  
 
 ## Lesson 1: Bug people
 
-I contacted many people who could help materially (expertise, advice, publicity) or by critiquing my project.
+I contacted many people who could help materially or by critiquing my project.
 
 The key is being patient and not coming off as desperate.  Follow up every two weeks if you've had near-term contact, one month if you haven't.
 
 ### Who to contact
 
-Write as many people as you can.  For me, this included:
+Email as many people as you can who can provide expertise, advice, or publicity.  For me, this included:
 
   * my contact at Planetary Resources.
   * contacts at many other space companies or organizations.
@@ -39,13 +39,13 @@ Write as many people as you can.  For me, this included:
 
 ### Cold email guidelines
 
-Here's how I initially contacted people:
+Emails should always be simple and short:
 
   * Briefly describe what I made and the success I've already had (# visitors, news coverage, etc.).
   * Tell them what my goal is.
   * Ask them for something that will help me accomplish this goal.
 
-This shouldn't take more than 2 or 3 short paragraphs.  Follow-up emails should be even shorter:
+This shouldn't be more than 2 or 3 short paragraphs.  Follow-up emails should be even shorter:
 
   * Update on project - latest successes, features, etc. (skip this if you're following up on a promise they've already made).
   * Ask them for something.
@@ -58,7 +58,7 @@ Most of your emails won't get read.  This can be insulting and stressful.  Hang 
 
 Over time, people started initiating contact instead of the other way around, and my network grew.  Persistent emails were the single largest contributing factor in the success of Asterank.
 
-## Lesson 2: Viral/social content is unpredictable
+## Lesson 2: Viral/social content is a boon and a timesink
 
 When I launched, the only self-promotion I did was a [Hacker News post](https://news.ycombinator.com/item?id=3967670), which gained a total of 2 points (I deserved this for giving it such an awful linkbait title).
 
@@ -68,7 +68,7 @@ Fortunately, someone picked it up and Asterank was featured on [Universe Today](
 
 Did you know you can "submit" to HN as many times as you want?  If no one is interested in your project, just blog about it until they notice it.  I posted [Asterank Discover](http://asterank.com/discover) on HN and it got 5 points.  Then I wrote a [blog post](www.ianww.com/blog/2013/08/05/how-a-programmer-can-discover-an-asteroid/) about it that made the front page.  Go figure.
 
-Caveat: social traffic fades quickly and is mostly full of people who are not that interested in what you're making.  It was helpful in getting started, but the results were not permanent and the marginal benefit decreases quickly.
+Caveat: social traffic fades quickly and is mostly full of people who are not that interested in what you're making.  It was helpful in getting started, but the results were not permanent and the marginal benefit decreases quickly.  Don't get caught up in it.
 
 ## Lesson 3: Users should be able to provide feedback very easily
 
@@ -97,11 +97,9 @@ I know many software engineers who question the value of LinkedIn.  It may cost 
 
 ## Lesson 6: Open source everything you can
 
-Most people are surprised when I tell them Asterank is entirely [open source](https://github.com/typpo/asterank).  It lends an air of transparency and invites collaborators.  The project receives valuable feedback as a result.
+Most people are surprised when I tell them Asterank is entirely [open source](https://github.com/typpo/asterank).  It lends an air of transparency and invites collaborators.  The project gains valuable feedback and perspective as a result.
 
-Most people who said they wanted to participate never actually contributed, but they had good ideas.  The additional perspective helped guide the growth of Asterank and the "words of encouragement" helped me focus on doing more.
-
-People in tech are often interested in how technologies are specifically used in certain applications.  Asterank capitalized on this, with its webgl visualizations making rounds in the webgl community.  You can get the attention of smart and well-connected people by showcasing interesting technology applications.
+People in tech are often interested in how technologies are specifically used in certain applications.  Asterank capitalized on this, with its visualizations making rounds in the webgl community.  You can get the attention of smart and well-connected people by showcasing interesting technology applications.  I did this by blogging about technical issues.
 
 ## Lesson 7: Stick with it
 
