@@ -77,7 +77,7 @@ Some of my best contacts came through Asterank's About page.  I provided my emai
 
 {% imgcap center http://i.imgur.com/FTOZyrJm.png A basic form only takes a few minutes to add. %}
 
-I also added a way to "subscribe to updates," but it actually just sent me their email address.  I used this to gage interest; there was no point in setting up a mailing list before I knew people would use it.
+I also added a way to "subscribe to updates," but it actually just sent me their email address.  I used this to gauge interest; there was no point in setting up a mailing list before I knew people would use it.
 
 Regardless of how you do it, easy-to-find contact info is essential.  It facilitated several job opportunities, conference invitiations, and media interviews.
 
@@ -100,7 +100,7 @@ I know many software engineers who question the value of LinkedIn.  It may cost 
 
 Most people are surprised when I tell them Asterank is almost entirely [open source](https://github.com/typpo/asterank).  It lends an air of transparency and invites collaborators.  The project gains valuable feedback and perspective as a result.
 
-Blogging about technical issues is a good way to get exposure in the open-source community.  People in tech are often interested in how technologies are specifically used in certain applications.  Asterank capitalized on this, with its visualizations making rounds in the webgl community.  You can get the attention of smart and well-connected people by showcasing interesting technology applications.
+Blogging about technical issues is a good way to get exposure in the open-source community.  Techies are often interested in how specific technologies are used in certain applications.  Asterank capitalized on this, with its visualizations making rounds in the webgl community.  You can get the attention of smart and well-connected people by showcasing interesting technology applications.
 
 ## Lesson 7: You need to stick with it
 
