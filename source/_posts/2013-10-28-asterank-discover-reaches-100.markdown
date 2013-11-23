@@ -23,7 +23,7 @@ Sky surveys have been collecting images of the night sky for decades in order to
 
 ## Planetary Resources and Asteroid Zoo
 
-Asterank Discover will soon fold into a larger project called Asteroid Zoo, now that [Asterank](http://asterank.com) has been acquired by [Planetary Resources](http://www.planetaryresources.com).
+Asterank Discover will fold into a larger project called Asteroid Zoo, now that [Asterank](http://asterank.com) has been acquired by [Planetary Resources](http://www.planetaryresources.com).
 
 Last week, PRI [announced](http://www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) its plans with NASA and Zooniverse to crowdsource reviewal of high-quality images from the Catalina Sky Survey.
 
