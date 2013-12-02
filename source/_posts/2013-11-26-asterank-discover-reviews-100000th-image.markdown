@@ -24,6 +24,8 @@ I've [discussed](http://www.ianww.com/2013/08/05/how-a-programmer-can-discover-a
 
 My approach in Asterank Discover was straightforward, with the intention of saving arder computation for later.  Display a few control images, then display unknowns and images that we don't have enough data on.  User history is recorded so we can determine how much we can trust their ability to actually spot asteroids.
 
+Next step: an analysis on hundreds of potential asteroids found to compute and check their orbital solutions.
+
 Also, everything in Asterank Discover is [open source](http://github.com/typpo/asterank).
 
 ## Partnership with Planetary Resources and NASA
