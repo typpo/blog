@@ -11,24 +11,45 @@ Frontend developers constantly mash ctrl+R or F5 to reload their browser after e
 
 ## Existing options
 
-livereload - costs money.  But it will also compile your sass for you.  Relatively easy to use with point-and-click interface.
+[livereload](http://livereload.com) - Costs money.  But it will also compile your sass for you.  Comes with point-and-click interface and browser extensions.  A bit too involved and platform-dependent for what I wanted.
 
-reload.js - Constantly issues HEAD requests to determine if web resources have changed.  This was no good for me because it pollutes the network debugging log and only works for js and css.  I wanted the page to reload when my frontend templates or backend view logic changed.
+[live.js](http://livejs.com/) - Constantly issues HEAD requests to determine if web resources have changed.  This was no good for me because it pollutes the network debugging log and only works for js and css.  I also want the page to reload when my frontend templates or backend view logic changed.
+
+[nodeJuice](http://nodejuice.com/) - Looks like it may include this functionality, but includes much more than I want.
+
+Other browser and IDE-specific solutions - They're out there, but I wanted a general solution.
 
 ## autoreload.js
 
-Autoreload runs either as a standlone script or as middleware if you're running a connect server with node.  You run the script, add a little js to your page, and then you can enjoy automatic refreshes whenever you make edits to your files.
+Autoreload runs either as a standalone script or as middleware if you're running a connect server with node.  You run the script, add a little js to your page, and then you can enjoy automatic refreshes whenever you make edits to your files.
 
 For example, running the following command will watch 3 directories and a file called settings.py for changes:
 
-    $ autoreload js css templates/main settings.py
+{% codeblock lang:sh %}$ autoreload js css templates/main settings.py{% endcodeblock %}
 
 Then I include this snippet in my base HTML template:
 
-   <script src="http://localhost:60000/autoreload.js"></script>
+{% codeblock lang:html  %}
+<script src="http://localhost:60000/autoreload.js"></script>
+
+<!-- Sometime later ... -->
+
+<script>
+AutoReload.Watch();
+</script>
+
+{% endcodeblock %}
+
+That's it!  Pretty easy.
 
 Installation via npm:
 
-    npm install -g autoreload
+{% codeblock lang:sh %}$ npm install -g autoreload{% endcodeblock %}
 
-Check it out [on github](http://github.com/typpo/autoreload) for the full README and code.  And feel free to open issues or pull requests.
+## How it works
+
+long polling.
+
+cancel with AutoReload.Stop()
+
+Check it out [on github](http://github.com/typpo/autoreload) for the full README and code (MIT license).  Feel free to open issues or pull requests.
