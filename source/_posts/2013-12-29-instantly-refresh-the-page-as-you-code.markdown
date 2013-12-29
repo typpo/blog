@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Instantly refresh the page as you code"
-date: 2013-12-15 17:50
+date: 2013-12-29 17:50
 comments: true
-categories:
-published: false
+categories: [coding]
 ---
 
-Frontend developers constantly mash ctrl+R or F5 to reload their browser after every single code change.  This is especially exhausting when you're working on mobile web and a refresh requires several taps.  I grew tired of this and looked for a soution.
+Frontend developers constantly mash ctrl+R or F5 to reload their browser after every single code change.  This is especially exhausting when you're working on mobile web and a refresh requires several taps.  I grew tired of this and developed a soution.
+
+<!-- more -->
 
 ## Existing options
 
@@ -27,7 +28,7 @@ For example, running the following command will watch 3 directories and a file c
 
 {% codeblock lang:sh %}$ autoreload js css templates/main settings.py{% endcodeblock %}
 
-Then I include this snippet in my base HTML template:
+It gives you a snippet to include in your base HTML template:
 
 {% codeblock lang:html  %}
 <script src="http://localhost:60000/autoreload.js"></script>
@@ -48,4 +49,4 @@ Installation via npm:
 
 It works by long polling an endpoint that updates a timestamp when files change.  Unfortunately it assumes jQuery is available.  That's a TODO item.
 
-Check it out [on github](http://github.com/typpo/autoreload) for the full README and code (MIT license).  Feel free to open issues or pull requests.
+Check it out [on github](http://github.com/typpo/autoreload) for the full README and code (MIT license).
