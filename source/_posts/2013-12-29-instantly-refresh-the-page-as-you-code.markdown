@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Instantly refresh the page as you code"
+title: "autoreload.js: Instantly refresh the page as you code"
 date: 2013-12-29 17:50
 comments: true
 categories: [coding]
