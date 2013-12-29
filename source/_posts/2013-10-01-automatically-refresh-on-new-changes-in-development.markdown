@@ -15,7 +15,7 @@ Frontend developers constantly mash ctrl+R or F5 to reload their browser after e
 
 [live.js](http://livejs.com/) - Constantly issues HEAD requests to determine if web resources have changed.  This was no good for me because it pollutes the network debugging log and only works for js and css.  I also want the page to reload when my frontend templates or backend view logic changed.
 
-[nodeJuice](http://nodejuice.com/) - Looks like it may include this functionality, but includes much more than I want.
+[nodeJuice](http://nodejuice.com/) - Looks like it may include this functionality, but includes way more than I want.
 
 Other browser and IDE-specific solutions - They're out there, but I wanted a general solution.
 
@@ -46,10 +46,6 @@ Installation via npm:
 
 {% codeblock lang:sh %}$ npm install -g autoreload{% endcodeblock %}
 
-## How it works
-
-long polling.
-
-cancel with AutoReload.Stop()
+It works by long polling an endpoint that updates a timestamp when files change.  Unfortunately it assumes jQuery is available.  That's a TODO item.
 
 Check it out [on github](http://github.com/typpo/autoreload) for the full README and code (MIT license).  Feel free to open issues or pull requests.
