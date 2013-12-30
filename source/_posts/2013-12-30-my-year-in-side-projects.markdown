@@ -13,8 +13,8 @@ I worked on 6 projects worth talking about this year:
 
 * [In 2013 Dollars](http://in2013dollars.com) - inflation reference
 * [Verified Facts](http://verifiedfacts.org) - conspiracy theory generator
-* [Asterank](http://asterank.com) - data management and calculations for space/asteroid exploration
 * [Watchtower](http://gowatchtower.com) - b2b competitive monitoring
+* [Asterank](http://asterank.com) - data management and calculations for space/asteroid exploration
 * [autoreload.js](http://github.com/typpo/autoreload) - frontend dev tool
 * [Candid Candidates](http://github.com/typpo/political-annotations) - political/open government browser extension
 
@@ -105,5 +105,7 @@ This is also [open source](https://github.com/typpo/political-annotations), but 
 
 ## Looking back
 
-My birthday is also at the end of the year, which makes me extra reflective.  I just turned 24 so I feel old even though I'm still pretty young.  With luck, I'll keep figuring out what I want to do and build interesting stuff.
+My birthday is also at the end of the year, which makes me extra reflective.  I just turned 24 so I feel old even though I'm still pretty young.  With luck, I'll keep figuring out what I want to do and build interesting things.
+
+Follow me on [Twitter](http://twitter.com/iwebst)!
 
