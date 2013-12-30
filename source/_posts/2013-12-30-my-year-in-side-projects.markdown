@@ -7,7 +7,7 @@ categories: [retrospectives]
 preview: true
 ---
 
-2013 was a crazy year for me.  It was extremely successful but very stressful.  Side projects are what I do to stay sane.  In 2013, they opened a lot of opportunities.
+I work on side projects to stay sane and keep sharp.  2013 was a crazy year - my side projects were very successful and they opened a lot of opportunities.  At the same time, it was pretty stressful to stay on top of everything.
 
 I worked on 6 projects worth talking about this year:
 
@@ -15,20 +15,20 @@ I worked on 6 projects worth talking about this year:
 * [Verified Facts](http://verifiedfacts.org) - conspiracy theory generator
 * [Asterank](http://asterank.com) - data management and calculations for space/asteroid exploration
 * [Watchtower](http://gowatchtower.com) - b2b competitive monitoring
-* [autoreload](http://github.com/typpo/autoreload) - frontend dev tool
+* [autoreload.js](http://github.com/typpo/autoreload) - frontend dev tool
 * [Candid Candidates](http://github.com/typpo/political-annotations) - political/open government browser extension
 
 Each project, in chronological order:
 
 ## In 2013 Dollars
 
-[in2013dollars](http://in2013dollars.com) is the world's most boring side project, aka a quick way to look up how inflation has changed the value of a dollar.  This was a short project mostly because I was annoyed by the relative difficulty of finding this information on the internet.
+[in2013dollars.com](http://in2013dollars.com) is the world's most boring side project, a quick way to look up how inflation has changed the value of a dollar.  This was a weekend project prompted by the difficulty of finding this information on the internet.
 
-{% imgcap center http://i.imgur.com/EygnL3om.png The simplest way to look up inflation. %}
+{% imgcap center http://i.imgur.com/EygnL3om.png The simplest way to look up inflation.&trade; %}
 
-This was a good exercise in SEO and generating a sitemap.  I think it started ranking better over time, even though I haven't touched it in nearly a year.
+This was a good exercise in SEO and sitemaps.  I think it started ranking better over time, even though I haven't touched it in nearly a year.
 
-{% imgcap center https://photos-2.dropbox.com/t/0/AACgG9xpnnve-Nx8huom02sOCZKzrqz0RZuK8cBGAoe9Nw/12/9567116/png/1024x768/3/1388422800/0/2/Screenshot%202013-12-30%2010.53.16.png/E6ljWiJLHgBzbryF7KZWlqIcw-1dlYjSsAmL-zWd8co About 7k lookups per month now. %}
+{% imgcap center http://i.imgur.com/1oTVycp.png About 7k lookups per month now. %}
 
 Unfortunately I wasn't exactly thinking ahead when I chose the name.  The economic data will also need to be updated soon.  The
 source is available [on github](https://github.com/typpo/inflation).
@@ -47,27 +47,57 @@ It went viral, with over a half a million conspiracies generated.  The highlight
 
 I wrote a more in-depth post on it, including an explanation of how it works [here](http://www.ianww.com/2013/02/04/how-to-generate-a-conspiracy-theory/).
 
+## Watchtower
+
+I built [Watchtower](http://gowatchtower.com) with a few other guys from [Room 77](http://room77.com/?new=1) for Jason Calcanis's LAUNCH hackathon.  It's a service that watches your competitors' websites and lets you know when they change certain things.  This is good for detecting their A/B tests, new marketing campaigns, etc.
+
+{% imgcap center http://i.imgur.com/s5LfeW8.png Watchtower vs Amazon. %}
+
+We unexpectedly made it past the first couple judging rounds.  Before we knew it we were presenting to an audience of 1,000+ conferencegoers in a huge auditorium.  I'm including this embarrassing video for completeness.
+
+{% youtube 812vR1rHttg %}
+
+I'd love to work more on Watchtower because I think the idea is really compelling.  Unfortunately it's hard to corral 4 hackathon participants to work on things long term.  We are in the process of selling Watchtower.  Drop me a line (watchtower@ianww.com) if you're interested.
+
 ## Asterank
 
-This was my side-project-turned-startup.  [Asterank](http://asterank.com) was acquired by Planetary Resources, the asteroid mining company.  I started the project in 2012 and in June this year I signed the papers.
+My side-project-turned-startup [Asterank](http://asterank.com) was acquired by Planetary Resources, the asteroid mining company.  I started the project in 2012 and in June this year I signed the papers.
 
 {% imgcap center http://i.imgur.com/LW3Q3LEm.png Woah. %}
 
 I also rolled out a crowdsourced asteroid discovery app called [Asterank Discover](http://asterank.com/discover).  To date, people have reviewed over 115,000 images and spotted hundreds of potential asteroids, a significant contribution to science.
 
-Asterank Discover is getting rolled into "Asteroid Zoo" at Planetary Resources, which made the news the other week when we [announced](www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) our partnership with NASA, the Adler Planetarium, and the Catalina Sky Survey.
+Now Asterank Discover is getting rolled into "Asteroid Zoo" at Planetary Resources, which made the news the other week when we [announced](www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) our partnership with NASA, the Adler Planetarium, and the Catalina Sky Survey.
 
 The other cool part about my Asterank project is that it got me several speaking invitations and job offers.
 
-In June I spoke at _ideacity_, which is like Canadian TED.  It was an awesome experience and I met tons of fun and interesting people.
+In June I spoke at _ideacity_, which is like Canadian TED.  It was an awesome experience and I met tons of fun and interesting people.  It was also a good exercise in public speaking, which I don't have much experience with.
 
-{% youtube wJKjsb_A8M4 %}
+{% youtube AM9T5H1penM %}
 
-This November I spoke at the World Technology Awards in New York, where I was nominated for an award in Space.  Given my competition, which included Elon Musk, the founders of Planetary Resources, and the director of NASA AMES, I was honored to be nominated and ok with not winning.
+And this November I spoke at the World Technology Awards in New York, where I was nominated for an award the Space category.  My competition included Elon Musk, the founders of Planetary Resources, and the director of NASA AMES, so I was just honored to be nominated and ok with not winning.
 
-{% imgcap center http://i.imgur.com/mRGGlspm.jpg At the "World Technology Awards" in NYC %}
+{% imgcap center http://i.imgur.com/LAxxykom.jpg At the World Technology Awards in NYC %}
+
+Now I work full time on asteroid mining spacecraft.  This side project was the catalyst for my full-time plunge into space.
 
 I could write a lot more about my journey with Asterank, but I've [written about it](http://www.ianww.com/blog/blog/categories/asterank/) in the past and I don't want to bore you to tears.
+
+Asterank is [open source](https://github.com/typpo/asterank).
+
+## autoreload.js
+
+A tool for frontend developers that automatically refreshes the page when you make changes to files.  I made this because pressing F5 sucks.  HN didn't like it but about 40 people per week install it via npm.
+
+{% imgcap center http://i.imgur.com/fH3Zx6X.png Not as interesting as Asterank. %}
+
+Open source [here](https://github.com/typpo/autoreload).
+
+## Candid Candidates
+
+I moved to Seattle and figured I had to try a Seattle hackathon.  I joined the [Seattle Hackathons](http://www.meetup.com/Seattle-Hackathons/) meetup group and saw that there was a Seattle Open Government hackathon the next week, hosted by [Lincoln Labs](http://lincolnlabs.com/).
+
+This is also [open source](https://github.com/typpo/political-annotations), but needs some cleanup.  One of my first goals for the new year is to get this in working order so I can promote it and make the world a better place.
 
 ## Looking back
 
