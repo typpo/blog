@@ -43,7 +43,7 @@ It went viral, with over a half a million conspiracies generated.  The highlight
 
 11 months later, the site ranks well for many conspiracy searches and is now being found by people who aren't in on the joke.  These are some recent Google search terms:
 
-{% imgcap center http://i.imgur.com/tdg0yYn.png I might be making the world a worse place. %}
+{% imgcap center http://i.imgur.com/tdg0yYn.png verifiedfacts.org might make the world a worse place. %}
 
 I wrote a more in-depth post on it, including an explanation of how it works [here](http://www.ianww.com/2013/02/04/how-to-generate-a-conspiracy-theory/).
 
