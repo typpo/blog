@@ -41,7 +41,7 @@ source is available [on github](https://github.com/typpo/inflation).
 
 It went viral, with over a half a million conspiracies generated.  The highlight was when Neil Gaiman tweeted it to over a million people.  Viral traffic spikes can be thrilling and nerve-wracking.  We endured it with no downtime on a ec2 micro instance thanks to some clever caching + redis on top of mongo.
 
-9 months later, the site ranks well for a certain search terms and is now being found by people who aren't in on the joke:
+11 months later, the site ranks well for many conspiracy searches and is now being found by people who aren't in on the joke.  These are some recent Google search terms:
 
 {% imgcap center http://i.imgur.com/tdg0yYn.png I might be making the world a worse place. %}
 
