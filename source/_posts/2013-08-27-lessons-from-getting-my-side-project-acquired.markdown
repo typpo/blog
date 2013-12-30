@@ -3,7 +3,7 @@ layout: post
 title: "What I learned from getting my side project acquired"
 date: 2013-10-08 22:03
 comments: true
-categories:
+categories: [asterank, retrospectives]
 ---
 
 I started [Asterank](http://asterank.com) in May 2012.  Earlier that week, Planetary Resources [announced](http://www.space.com/15395-asteroid-mining-planetary-resources.html) its intent to mine water and valuable materials from asteroids.  Like many others, I was intrigued.  It was an inspiring, impossible long-term vision.
