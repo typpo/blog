@@ -9,7 +9,7 @@ preview: true
 
 I work on side projects to stay sane and keep sharp.  2013 was a crazy year - my side projects were very successful and they opened a lot of opportunities.  At the same time, it was pretty stressful to stay on top of everything.
 
-I worked on 6 projects worth talking about this year:
+My 6 projects worth talking about this year, in chronological order:
 
 * [In 2013 Dollars](http://in2013dollars.com) - inflation reference
 * [Verified Facts](http://verifiedfacts.org) - conspiracy theory generator
@@ -18,32 +18,34 @@ I worked on 6 projects worth talking about this year:
 * [autoreload.js](http://github.com/typpo/autoreload) - frontend dev tool
 * [Candid Candidates](http://github.com/typpo/political-annotations) - political/open government browser extension
 
-Each project, in chronological order:
+{% img center http://i.imgur.com/IsRaZtp.png %}
+
+<!-- more -->
 
 ## In 2013 Dollars
 
-[in2013dollars.com](http://in2013dollars.com) is the world's most boring side project, a quick way to look up how inflation has changed the value of a dollar.  This was a weekend project prompted by the difficulty of finding this information on the internet.
+[in2013dollars.com](http://in2013dollars.com) is the world's most boring side project, a quick way to look up how inflation has changed the value of a dollar.  This was a weekend endeavor prompted by the difficulty of finding this information on the internet.
 
 {% imgcap center http://i.imgur.com/EygnL3om.png The simplest way to look up inflation.&trade; %}
 
-This was a good exercise in SEO and sitemaps.  I think it started ranking better over time, even though I haven't touched it in nearly a year.
+It was a good exercise in SEO and sitemaps.  I think it started ranking better over time, even though I haven't touched it in nearly a year.
 
-{% imgcap center http://i.imgur.com/1oTVycp.png About 7k lookups per month now. %}
+{% imgcap center http://i.imgur.com/1oTVycpm.png About 7k lookups per month now. %}
 
 Unfortunately I wasn't exactly thinking ahead when I chose the name.  The economic data will also need to be updated soon.  The
 source is available [on github](https://github.com/typpo/inflation).
 
 ## Verified Facts
 
-[Verified Facts](http://verifiedfacts.org) generates random conspiracy theories.  They sound crazy but they're close enough to real conspiracy theories that it can be hard to tell the difference.  This was so much fun to create.
+[Verified Facts](http://verifiedfacts.org) generates random conspiracy theories.  They sound crazy but they're close enough to real ones that it can be hard to tell the difference.  This was a lot of fun to make.
 
 {% img center http://i.imgur.com/83VS00w.png %}
 
-It went viral, with over a half a million conspiracies generated.  The highlight was when Neil Gaiman tweeted it to over a million people.  Viral traffic spikes can be thrilling and nerve-wracking.  We endured it with no downtime on a ec2 micro instance thanks to some clever caching + redis on top of mongo.
+It went viral with over a half a million conspiracies generated.  The highlight was when Neil Gaiman tweeted it to over a million people.  Viral traffic spikes can be thrilling and nerve-wracking.  We endured it with no downtime on a ec2 micro thanks to some clever caching + redis on top of mongo.
 
-11 months later, the site ranks well for many conspiracy searches and is now being found by people who aren't in on the joke.  These are some recent Google search terms:
+11 months later, the site ranks well for many conspiracy searches and is being found by people who aren't in on the joke.  Here's a sample of recent search traffic:
 
-{% imgcap center http://i.imgur.com/tdg0yYn.png verifiedfacts.org might make the world a worse place. %}
+{% imgcap center http://i.imgur.com/tdg0yYn.png verifiedfacts.org is making the world a worse place. %}
 
 I wrote a more in-depth post on it, including an explanation of how it works [here](http://www.ianww.com/2013/02/04/how-to-generate-a-conspiracy-theory/).
 
@@ -51,13 +53,13 @@ I wrote a more in-depth post on it, including an explanation of how it works [he
 
 I built [Watchtower](http://gowatchtower.com) with a few other guys from [Room 77](http://room77.com/?new=1) for Jason Calcanis's LAUNCH hackathon.  It's a service that watches your competitors' websites and lets you know when they change certain things.  This is good for detecting their A/B tests, new marketing campaigns, etc.
 
-{% imgcap center http://i.imgur.com/s5LfeW8.png Watchtower vs Amazon. %}
+{% imgcap center http://i.imgur.com/s5LfeW8.png Watching Amazon's top ad. %}
 
 We unexpectedly made it past the first couple judging rounds.  Before we knew it we were presenting to an audience of 1,000+ conferencegoers in a huge auditorium.  I'm including this embarrassing video for completeness.
 
 {% youtube 812vR1rHttg %}
 
-I'd love to work more on Watchtower because I think the idea is really compelling.  Unfortunately it's hard to corral 4 hackathon participants to work on things long term.  We are in the process of selling Watchtower.  Drop me a line (watchtower@ianww.com) if you're interested.
+I'd love to work more on Watchtower because I think the idea is really compelling.  Unfortunately it's hard to corral 4 hackathon participants to work on things long term.  We are in the process of selling Watchtower.  (watchtower@ianww.com if you're interested).
 
 ## Asterank
 
@@ -67,7 +69,7 @@ My side-project-turned-startup [Asterank](http://asterank.com) was acquired by P
 
 I also rolled out a crowdsourced asteroid discovery app called [Asterank Discover](http://asterank.com/discover).  To date, people have reviewed over 115,000 images and spotted hundreds of potential asteroids, a significant contribution to science.
 
-Now Asterank Discover is getting rolled into "Asteroid Zoo" at Planetary Resources, which made the news the other week when we [announced](www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) our partnership with NASA, the Adler Planetarium, and the Catalina Sky Survey.
+Now Asterank Discover is getting rolled into "Asteroid Zoo" at Planetary Resources, which was in the news recently when we [announced](www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) our partnership with NASA, the Adler Planetarium, and the Catalina Sky Survey.
 
 The other cool part about my Asterank project is that it got me several speaking invitations and job offers.
 
@@ -75,7 +77,7 @@ In June I spoke at _ideacity_, which is like Canadian TED.  It was an awesome ex
 
 {% youtube AM9T5H1penM %}
 
-And this November I spoke at the World Technology Awards in New York, where I was nominated for an award in the Space category.  My competition included Elon Musk, the founders of Planetary Resources, and the director of NASA AMES, so I was honored to be nominated and ok with not winning.
+And this November I spoke at the World Technology Awards in New York, where I was nominated for an award in the Space category.  My competition included Elon Musk (SpaceX, Tesla), the founders of Planetary Resources, and the director of NASA AMES, so I was honored to be nominated and ok with not winning.
 
 {% imgcap center http://i.imgur.com/LAxxykom.jpg At the World Technology Awards in NYC %}
 
