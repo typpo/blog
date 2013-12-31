@@ -117,3 +117,5 @@ I've had to make some hard decisions and turn down some great opportunities to w
 I've accepted a Software Engineer position at Planetary Resources starting in November, and am very excited to learn a lot and see where things takes me.
 
 Good luck!
+
+Follow me: [@iwebst](http://twitter.com/iwebst)

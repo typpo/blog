@@ -162,3 +162,5 @@ I saw huge gains in smoothness by writing a custom shader (using `ShaderMaterial
 I went from lagging at ~60 moving particles to being able to smoothly render 20,000+ independently moving particles.
 
 Although webgl performance is noticeably behind native capabilities, it's only a matter of time until the technology and hardware catch up. Until then, I hope this post helps anyone who's running into similar performance issues.
+
+Follow me: [@iwebst](http://twitter.com/iwebst)
