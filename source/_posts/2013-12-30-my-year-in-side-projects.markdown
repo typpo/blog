@@ -8,7 +8,7 @@ categories: [retrospectives]
 
 I work on side projects to stay sane and keep sharp.  2013 was a crazy year - they were very successful and opened a lot of opportunities.  At the same time, it was stressful to stay on top of everything.
 
-2 projects went viral, 2 won hackathons, 1 was bought.  6 total worth talking about, in chronological order:
+6 total worth talking about, in chronological order:
 
 * [In 2013 Dollars](http://in2013dollars.com) - inflation reference
 * [Verified Facts](http://verifiedfacts.org) - conspiracy theory generator
