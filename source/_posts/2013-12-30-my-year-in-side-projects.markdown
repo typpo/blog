@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "My year in side projects"
-date: 2013-12-30 10:37
+date: 2013-12-31 10:37
 comments: true
 categories: [retrospectives]
-preview: true
 ---
 
 I work on side projects to stay sane and keep sharp.  2013 was a crazy year - my side projects were very successful and they opened a lot of opportunities.  At the same time, it was pretty stressful to stay on top of everything.
