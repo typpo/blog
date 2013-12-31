@@ -6,9 +6,9 @@ comments: true
 categories: [retrospectives]
 ---
 
-I work on side projects to stay sane and keep sharp.  2013 was a crazy year - these projects were very successful and they opened a lot of opportunities.  At the same time, it was pretty stressful to stay on top of everything.
+I work on side projects to stay sane and keep sharp.  2013 was a crazy year - they were very successful and opened a lot of opportunities.  At the same time, it was stressful to stay on top of everything.
 
-6 projects worth talking about this year, in chronological order:
+2 projects went viral, 2 won hackathons, 1 was bought.  6 total worth talking about, in chronological order:
 
 * [In 2013 Dollars](http://in2013dollars.com) - inflation reference
 * [Verified Facts](http://verifiedfacts.org) - conspiracy theory generator
@@ -58,7 +58,7 @@ We unexpectedly made it past the first couple judging rounds.  Before we knew it
 
 {% youtube 812vR1rHttg %}
 
-I'd love to work more on Watchtower because I think the idea is really compelling.  Unfortunately it's hard to corral 4 hackathon participants to work on things long term.  We are in the process of selling Watchtower.  (watchtower@ianww.com if you're interested).
+I'd love to work more on Watchtower because I think the idea is really compelling.  Unfortunately it's hard to corral 4 hackathon participants to work on things long term.  We're considering some offers to sell it.
 
 ## Asterank
 
