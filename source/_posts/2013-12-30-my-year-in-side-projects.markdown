@@ -6,9 +6,9 @@ comments: true
 categories: [retrospectives]
 ---
 
-I work on side projects to stay sane and keep sharp.  2013 was a crazy year - my side projects were very successful and they opened a lot of opportunities.  At the same time, it was pretty stressful to stay on top of everything.
+I work on side projects to stay sane and keep sharp.  2013 was a crazy year - these projects were very successful and they opened a lot of opportunities.  At the same time, it was pretty stressful to stay on top of everything.
 
-My 6 projects worth talking about this year, in chronological order:
+6 projects worth talking about this year, in chronological order:
 
 * [In 2013 Dollars](http://in2013dollars.com) - inflation reference
 * [Verified Facts](http://verifiedfacts.org) - conspiracy theory generator
@@ -78,7 +78,7 @@ In June I spoke at _ideacity_, which is like Canadian TED.  It was an awesome ex
 
 And this November I spoke at the World Technology Awards in New York, where I was nominated for an award in the Space category.  My competition included Elon Musk (SpaceX, Tesla), the founders of Planetary Resources, and the director of NASA AMES, so I was honored to be nominated and ok with not winning.
 
-{% imgcap center http://i.imgur.com/LAxxykom.jpg At the World Technology Awards in NYC %}
+{% imgcap center http://i.imgur.com/LAxxykom.jpg At the World Technology Awards in NYC. Yeah, I wore the same thing. %}
 
 Now I work full time on asteroid mining spacecraft.  This side project was the catalyst for my full-time plunge into space.  I could write a lot more about my journey with Asterank, but I've [written about it](http://www.ianww.com/blog/blog/categories/asterank/) in the past and I don't want to bore you to tears.
 
@@ -88,25 +88,25 @@ Asterank is [open source](https://github.com/typpo/asterank).
 
 A tool for frontend developers that automatically refreshes the page when you make changes to files.  I made this because pressing F5 sucks.  HN didn't like it but about 40 people per week install it via npm, which is fine by me.
 
-{% imgcap center http://i.imgur.com/fH3Zx6X.png Not as interesting as Asterank. %}
+{% imgcap center http://i.imgur.com/fH3Zx6X.png Not as interesting as space travel. %}
 
 Open source [here](https://github.com/typpo/autoreload).
 
 ## Candid Candidates
 
-I moved to Seattle and figured I had to try a Seattle hackathon.  I joined the [Seattle Hackathons](http://www.meetup.com/Seattle-Hackathons/) meetup group and saw that there was a Seattle Open Government hackathon the next week, hosted by [Lincoln Labs](http://lincolnlabs.com/).
+I moved to Seattle and figured I had to try a Seattle hackathon.  I joined the [meetup group](http://www.meetup.com/Seattle-Hackathons/) and saw that there was a Seattle Open Government hackathon the next week, hosted by [Lincoln Labs](http://lincolnlabs.com/).
 
 We built a chrome extension that annotates news sites with important political context, campaign donations, and contact info.  You hover over politicians' names and get that info.
 
-Everyone knows that politicians are bought and sold, but that info is hard to get and it's not there when you need it most.  This is a step toward _passive_ political consciousness.
+Everyone knows that politicians are bought and sold, but that info is hard to get and it's not there when you need it most.  This is a step toward passive political consciousness.
 
 {% imgcap center http://i.imgur.com/C2QG9ZOm.png Hover over Ted's name to get his contact info and see who gives him money. %}
 
-We won $1500 (2nd prize).  This is also [open source](https://github.com/typpo/political-annotations), but needs some cleanup.  One of my first goals for the new year is to get this in working order so I can promote it and make the world a better place.
+We won $1500 (2nd prize).  It's also [open source](https://github.com/typpo/political-annotations), but needs some cleanup.  One of my first goals for the new year is to get this in working order so I can promote it and make the world a better place.
 
 ## Looking back
 
 My birthday is also at the end of the year, which makes me extra reflective.  I just turned 24 so I feel old even though I'm still pretty young.  With luck, I'll keep figuring out what I want to do and build interesting things.
 
-Follow me on [Twitter](http://twitter.com/iwebst)!
+Follow me: [@iwebst](http://twitter.com/iwebst)
 
