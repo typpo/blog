@@ -103,7 +103,7 @@ Everyone knows that politicians are bought and sold, but that info is hard to ge
 
 {% imgcap center http://i.imgur.com/C2QG9ZOm.png Hover over Ted's name to get his contact info and see who gives him money. %}
 
-This is also [open source](https://github.com/typpo/political-annotations), but needs some cleanup.  One of my first goals for the new year is to get this in working order so I can promote it and make the world a better place.
+We won $1500 (2nd prize).  This is also [open source](https://github.com/typpo/political-annotations), but needs some cleanup.  One of my first goals for the new year is to get this in working order so I can promote it and make the world a better place.
 
 ## Looking back
 
