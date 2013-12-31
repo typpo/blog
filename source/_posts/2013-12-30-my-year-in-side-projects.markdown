@@ -104,9 +104,9 @@ Everyone knows that politicians are bought and sold, but that info is hard to ge
 
 We won $1500 (2nd prize).  It's also [open source](https://github.com/typpo/political-annotations), but needs some cleanup.  One of my first goals for the new year is to get this in working order so I can promote it and make the world a better place.
 
-## Looking back
+## Looking forward
 
-My birthday is also at the end of the year, which makes me extra reflective.  I just turned 24 so I feel old even though I'm still pretty young.  With luck, I'll keep figuring out what I want to do and build interesting things.
+My birthday is also at the end of the year, which makes me extra reflective.  I don't know where I am headed in nearly any aspect of life, but these projects give me a way to explore options.  Next year, though, I want to focus on my relationships and being healthy.  With luck, I'll figure all that out while still building interesting things.
 
 Follow me: [@iwebst](http://twitter.com/iwebst)
 
