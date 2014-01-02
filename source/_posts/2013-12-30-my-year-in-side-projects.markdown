@@ -68,7 +68,7 @@ My side-project-turned-startup [Asterank](http://asterank.com) was acquired by P
 
 I also rolled out a crowdsourced asteroid discovery app called [Asterank Discover](http://asterank.com/discover).  To date, people have reviewed over 115,000 images and spotted hundreds of potential asteroids, a significant contribution to science.
 
-Now Asterank Discover is getting rolled into "Asteroid Zoo" at Planetary Resources, which was in the news recently when we [announced](www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) our partnership with NASA, the Adler Planetarium, and the Catalina Sky Survey.
+Now Asterank Discover is getting rolled into "Asteroid Zoo" at Planetary Resources, which was in the news recently when we [announced](http://www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) our partnership with NASA, the Adler Planetarium, and the Catalina Sky Survey.
 
 The other cool part about my Asterank project is that it got me several speaking invitations and job offers.
 
