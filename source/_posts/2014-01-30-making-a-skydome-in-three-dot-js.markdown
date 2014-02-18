@@ -12,7 +12,7 @@ This tutorial explains how to create a "skydome" or "skysphere."  Similar to a s
 
 <!-- more -->
 
-Using THREE.js's SphereGeometry, it is quite simple:
+Using three.js's SphereGeometry, it is quite simple:
 
 {% codeblock lang:js %}
 var geometry = new THREE.SphereGeometry(3000, 60, 40);
