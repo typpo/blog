@@ -68,7 +68,7 @@ And in the simulation:
 
 It can be frustrating to find good skybox images.  You can create your own via Blender, but the process is somewhat involved.  Depending on your image, you may have to do some manipulation to eliminate seams and other graphical artifacts.  In the end I wound up downloading a bunch of software and not being happy with the outcome.
 
-In my opion, it's much easier to create a 'skydome' or a 'skysphere' with just a single image.
+In my opinion, it's much easier to create a 'skydome' or a 'skysphere' with just a single image.
 
 There are some tradeoffs, as noted in [this stackoverflow post](http://stackoverflow.com/questions/3912207/skybox-vs-skysphere).  But in most cases, I find it much easier to deal with a single image instead of 6 cube images.
 
