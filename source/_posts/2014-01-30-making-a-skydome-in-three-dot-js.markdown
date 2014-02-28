@@ -35,7 +35,7 @@ scene.add(skyBox);
 
 Notice that we reference some shaders #sky-vertex and #sky-fragment.  For a simple sky, these shaders just map to your texture and not much else:
 
-{% codeblock lang:js %}
+{% codeblock lang:html %}
 <script type="application/x-glsl" id="sky-vertex">
 varying vec2 vUV;
 
@@ -54,6 +54,7 @@ void main() {
   vec4 sample = texture2D(texture, vUV);
   gl_FragColor = vec4(sample.xyz, sample.w);
 }
+</script>
 {% endcodeblock %}
 
 [Asterank](http://asterank.com) uses this code to render the ESO's famous high-resolution panorama of the milky way:
