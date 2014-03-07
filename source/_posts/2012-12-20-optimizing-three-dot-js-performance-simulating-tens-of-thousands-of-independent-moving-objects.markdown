@@ -6,11 +6,11 @@ comments: true
 categories: [javascript, three.js, webgl, html5, webworkers]
 ---
 
-This post covers my experience building [asterank.com/3d](http://asterank.com/3d), a simulation engine capable of showing tens of thousands of particles with unique trajectories. Each particle has a unique path calculated on-the-fly using laws of astrodynamics.
+This post covers my experience building [Asterank 3D](http://asterank.com/3d), a simulation engine capable of showing tens of thousands of particles with unique trajectories. Each particle has a unique path calculated on-the-fly using laws of astrodynamics.
 
-I documented the process as I scaled the simulation from 60 objects to 20,000 objects. Each section of this post will cover three techniques that produced significant performance gains during my development.
+I documented my progress as I scaled the simulation from 60 objects to 50,000 objects. Each section will cover techniques that produced significant performance gains.
 
-[{% img http://i.imgur.com/WYPxE.png %}](http://asterank.com/3d)
+[{% img center http://i.imgur.com/WYPxE.png %}](http://asterank.com/3d)
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ for (var i=0; i < 100; i++) {
 }
 {% endcodeblock %}
 
-Rather than individually adding each particle to the scene, instead use a single ParticleSystem:
+Rather than individually adding each particle to the scene, use a single ParticleSystem:
 
 {% codeblock lang:js %}
 var particle_system_geometry = new THREE.Geometry();
@@ -47,14 +47,14 @@ scene.add(particleSystem);
 
 To customize the appearance of your particles, you can use sprites to override the default shape.
 
-This change will easily result in several orders of magnitude improvement. However, things like ray tracing/collision detection become more complicated.
+This change will easily result in several orders of magnitude improvement. However, things like ray tracing/collision detection (which are useful for things like mouseover behaviors) become more complicated.
 
-## Browser multithreading with web workers
-JavaScript is single-threaded in all browsers, which means all logic blocks the main UI thread. As a result, your simulation will be jumpy or unresponsive if you compute many new particle positions.
+## Browser "multithreading" with web workers
+Javascript is single-threaded in all browsers, which means all logic blocks the main UI thread. As a result, your simulation will feel jumpy or unresponsive to the user if the browser is busy computing many new particle positions.
 
-HTML5 Web Workers are essentially separate threads that communicate with the main thread via message passing. Running calculations on a separate thread will keep the UI updating smoothly.
+HTML5 Web Workers are similar to threads that communicate with the main UI thread via message passing. Running complex blocking calculations with a web worker will keep the UI updating smoothly.
 
-Web workers are typically defined as JavaScript files that run within their own context. They can't use any of the global variables you use in your main scripts, such as `window` or `document`. You can't do UI/DOM work in web workers, but you can perform other calculations.
+Web workers are typically defined as JS files that run within their own context. They can't use any of the global variables you use in your main scripts, such as `window` or `document`. You can't do UI/DOM work in web workers, but you can perform other calculations.
 
 Here's an example webworker file:
 
@@ -76,7 +76,7 @@ self.addEventListener('message', function() {
 })
 {% endcodeblock %}
 
-Create and run the web worker like so:
+Create and run the web worker from your UI code like so:
 
 {% codeblock lang:js %}
 // in your main js file
@@ -107,7 +107,9 @@ worker.onmessage = function(e) {
 }
 {% endcodeblock %}
 
-The gains I saw from using a web worker to handle orbital calculations were substantial. Using a single web worker allowed me to smoothly render 10,000 moving particles, as the main UI thread was no longer tied up by position calculations. Splitting the work among multiple workers could result in some gains depending on the type of work, but in my case most of the gain came from not blocking the UI thread.
+For a more in-depth look at web workers, I recommend the [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/workers/basics/) introduction.
+
+The gains I saw from using a web worker to handle orbital calculations were substantial. Using a single worker allowed me to smoothly render 10,000 moving particles, as the main UI thread was no longer tied up by position calculations. Additional workers could give more gains in theory, but in my case the benefits diminished very quickly.
 
 Web workers are supported by recent versions of all browsers except for IE (IE 10 adds web worker support). They're also supported by the default browsers on iOS and Android, but have been removed from more recent versions of Android. I created a simple [web worker compatibility library](https://github.com/typpo/web-workers-fallback) for browsers that don't have native support for workers.
 
@@ -125,10 +127,9 @@ for (var i=0; i < 20000; i++)
 
 This simple approach delays the execution of renderAnimateFrame() and other rendering updates until the loop is completed. If the loop takes longer than your desired framerate, the simulation will lag.
 
-The fix I implemented is based on [this article](http://www.nczonline.net/blog/2009/08/11/timed-array-processing-in-javascript/) by Nicholas Zakas, author of [O'Reilly's High-Performance JavaScript](http://www.amazon.com/gp/product/059680279X?ie=UTF8&tag=gifthor0b-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=059680279X) and other books. I used the concept and implemented my own version of `timedChunk`:
+The fix I implemented is based on [this article](http://www.nczonline.net/blog/2009/08/11/timed-array-processing-in-javascript/) by Nicholas Zakas, author of [O'Reilly's High-Performance JavaScript](http://www.amazon.com/gp/product/059680279X?ie=UTF8&tag=gifthor0b-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=059680279X) and other books. I wound up implementing my own version of `timedChunk`:
 
 {% codeblock lang:js %}
-// MIT Licensed
 function timedChunk(particles, positions, fn, context, callback){
   var i = 0;
   var tick = function() {
@@ -149,18 +150,22 @@ function timedChunk(particles, positions, fn, context, callback){
 
 In this solution, `setTimeout` yields execution flow to things like calls to `animate()`. Even a setTimeout of 0 would work for this purpose, as calling it with no delay simply passes execution flow to whatever's waiting.
 
-Prior to this approach, additional web workers had no effect on my simulation. Using `timedChunk` allowed me to increase the number of web workers because it eliminated a UI thread bottleneck.
+Using `timedChunk` allowed me to increase the number of web workers because it eliminated the UI thread bottleneck.
 
-## An update
+## Using custom shaders
 
-Because this post still gets a decent amount of traffic, I want to mention a significant change I made to Asterank that improved particle performance considerably.
+Finally, I saw a huge improvement in smoothness of the simulation by writing a custom shader for my particle system.
 
-I saw huge gains in smoothness by writing a custom shader (using `ShaderMaterial`) for my particle system.  I wound up moving all position calculations to the GPU, which was incredibly important in ensuring the smoothness of the simulation.  It is likely you'd see the same gains if your particles have independent trajectories.  I wrote a basic custom shader introduction [here](http://www.ianww.com/blog/2012/12/16/an-introduction-to-custom-shaders-with-three-dot-js/).
+This effectively moved all the complex position calculations for my particles to the GPU, which went a long way toward ensuring the speed and reliability of the simulation.  Custom shaders are written in GLSL, which is close enough to C that it's not too difficult to translate your math into.
+
+At this point, the number of particles I could show on my desktop became so high that I chose to limit it so laptops with weaker graphics cards could handle the simulation.
+
+You will see significant gains with custom shaders, especially if your particles have independent trajectories.  I wrote a quick intro to shaders [here](http://www.ianww.com/blog/2012/12/16/an-introduction-to-custom-shaders-with-three-dot-js/).
 
 ## Conclusion
 
-I went from lagging at ~60 moving particles to being able to smoothly render 20,000+ independently moving particles.
+I went from lagging at ~60 moving particles to being able to smoothly render 50,000+ independently moving particles.
 
-Although webgl performance is noticeably behind native capabilities, it's only a matter of time until the technology and hardware catch up. Until then, I hope this post helps anyone who's running into similar performance issues.
+Although webgl performance lags behind native capabilities, it's only a matter of time until the technology and hardware catch up. Until then, I hope this post helps anyone who's running into similar performance issues.
 
 Follow me: [@iwebst](http://twitter.com/iwebst)
