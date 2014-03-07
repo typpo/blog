@@ -6,7 +6,7 @@ comments: true
 categories: [retrospectives]
 ---
 
-I work on side projects to stay sane and keep sharp.  2013 was a crazy year - they were very successful and opened a lot of opportunities.  At the same time, it was stressful to stay on top of everything.
+Side projects are a good way to stay sane and keep sharp.  2013 was a crazy year - my side projects were a lot of fun and they opened many opportunities.
 
 6 total worth talking about, in chronological order:
 
@@ -78,9 +78,9 @@ In June I spoke at _ideacity_, which is like Canadian TED.  It was an awesome ex
 
 And this November I spoke at the World Technology Awards in New York, where I was nominated for an award in the Space category.  My competition included Elon Musk (SpaceX, Tesla), the founders of Planetary Resources, and the director of NASA AMES, so I was honored to be nominated and ok with not winning.
 
-{% imgcap center http://i.imgur.com/LAxxykom.jpg At the World Technology Awards in NYC. Yeah, I wore the same thing. %}
+{% imgcap center http://i.imgur.com/LAxxykom.jpg At the World Technology Awards in NYC.  Yeah, I wore the same thing. %}
 
-Now I work full time on asteroid mining spacecraft.  This side project was the catalyst for my full-time plunge into space.  I could write a lot more about my journey with Asterank, but I've [written about it](http://www.ianww.com/blog/blog/categories/asterank/) in the past and I don't want to bore you to tears.
+This project was the catalyst for my full-time plunge into building spacecraft.  I could write a lot more about my journey with Asterank, but I've [written about it](http://www.ianww.com/blog/blog/categories/asterank/) in the past and I don't want to bore you to tears.
 
 Asterank is [open source](https://github.com/typpo/asterank).
 
@@ -106,7 +106,7 @@ We won $1500 (2nd prize).  It's also [open source](https://github.com/typpo/poli
 
 ## Looking forward
 
-My birthday is also at the end of the year, which makes me extra reflective.  I don't know where I am headed in nearly any aspect of life, but these projects give me a way to explore options.  Next year, though, I want to focus on my relationships and being healthy.  With luck, I'll figure all that out while still building interesting things.
+My birthday is also at the end of the year, which makes me extra reflective.  I don't know where I am headed in nearly any aspect of life, but these projects give me a way to explore options.  Next year I'd like to focus on my relationships and being healthy.  With luck, I'll figure all that out while still building interesting things.
 
 Follow me: [@iwebst](http://twitter.com/iwebst)
 
