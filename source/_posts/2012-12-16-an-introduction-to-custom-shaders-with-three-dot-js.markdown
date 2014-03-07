@@ -19,9 +19,11 @@ Shaders run on the graphics card and give you much lower-level access to how thi
 
 Webgl shaders are small programs written in a specialized language called GLSL similar to C.  It is strongly typed and includes basic data types such as `float`, `int`, and `bool`, and additional Vector data types, which are useful for graphics programming: `vec2`, `vec3`, and `vec4`.  A "vector" in this context is essentially a fixed-length array.  GLSL vectors contain `float`s by default, but you can specify `int` vectors as `ivec2` and `bool` vectors as `bvec2`, for example.\*
 
-There are two kinds of shaders: **vertex shaders** and **fragment shaders**.  Vertex shaders manipulate the vertices of polygons (aka the points that define their shape).  This gives you control over the shape and position of things in your rendering.  At render time, your vertex shader is run on every vertex.
+There are two kinds of shaders: **vertex shaders** and **fragment shaders**.
 
-Fragment shaders are also known as pixel shaders, and they determine how the pixels *between* your vertices look.  This is useful for things like lighting or gradients.
+  - Vertex shaders manipulate the vertices of polygons (aka the points that define their shape).  This gives you control over the shape and position of things in your rendering.  At render time, your vertex shader is run on every vertex.
+
+  - Fragment shaders are also known as pixel shaders, and they determine how the pixels *between* your vertices look.  This is useful for things like lighting or gradients.
 
 You can pass variables into shaders, either as **uniforms** or as **attributes**.  Uniforms are constant across all vertices.  Attributes can vary from vertex to vertex.  These values are supplied by Javascript.  When referenced in shaders, they are constants - you can't reassign uniform or attributes in GLSL.
 
