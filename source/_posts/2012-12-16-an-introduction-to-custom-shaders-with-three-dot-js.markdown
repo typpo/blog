@@ -10,26 +10,26 @@ This writeup is a compilation of things I wish I'd known before I started workin
 
 ## Why Use Custom Shaders?
 
-Shaders run on the graphics card and give you much lower-level access to how things are rendered.  In my case, switching to custom shaders improved performance in my astronomics simulation a thousandfold and made it much more visually stunning:
+Shaders run on the graphics card and give you much lower-level access to how things are rendered.  In my case, switching to custom shaders improved performance in my astronomics simulation a thousandfold and made it visually stunning:
 
 
-[{% img http://i.imgur.com/27zYc.png %}](http://asterank.com/3d)
+[{% img center http://i.imgur.com/27zYc.png %}](http://asterank.com/3d)
 
 ## OpenGL Shader Language (GLSL)
 
-Webgl shaders are small programs written in a specialized language called GLSL similar to C.  It is strongly typed and includes basic data types such as `float`, `int`, and `bool`, and additional data types useful for graphics programming such as `vec2`, `vec3`, and `vec4`.  Vector data types are `float` by default; you can specify `int` vectors as `ivec2` and `bool` vectors as `bvec2`, for example.\*
+Webgl shaders are small programs written in a specialized language called GLSL similar to C.  It is strongly typed and includes basic data types such as `float`, `int`, and `bool`, and additional Vector data types, which are useful for graphics programming: `vec2`, `vec3`, and `vec4`.  A "vector" in this context is essentially a fixed-length array.  GLSL vectors contain `float`s by default, but you can specify `int` vectors as `ivec2` and `bool` vectors as `bvec2`, for example.\*
 
-There are two kinds of shaders: **vertex shaders** and **fragment shaders**.  Vertex shaders manipulate the vertices of polygons, which define shape and position of objects in your rendering.  Your vertex shader is run on each vertex in your rendering.
+There are two kinds of shaders: **vertex shaders** and **fragment shaders**.  Vertex shaders manipulate the vertices of polygons (aka the points that define their shape).  This gives you control over the shape and position of things in your rendering.  At render time, your vertex shader is run on every vertex.
 
-Fragment shaders are also known as pixel shaders, and they determine how the pixels between your vertices look.  This is useful for things like lighting or gradients.
+Fragment shaders are also known as pixel shaders, and they determine how the pixels *between* your vertices look.  This is useful for things like lighting or gradients.
 
-You can pass variables into shaders, either as **uniforms** or as **attributes**.  Uniforms are constant across all vertices.  Attributes can vary from vertex to vertex.  When referenced in shaders, they are constants; ie. you can never reassign the value of a uniform or an attribute.
+You can pass variables into shaders, either as **uniforms** or as **attributes**.  Uniforms are constant across all vertices.  Attributes can vary from vertex to vertex.  These values are supplied by Javascript.  When referenced in shaders, they are constants - you can't reassign uniform or attributes in GLSL.
 
 Let's write some simple shaders.
 
 <!-- more -->
 
-Vertex shaders are always run first:
+Vertex shaders always run first:
 {% codeblock lang:js %}
 // These have global scope
 
@@ -44,7 +44,7 @@ void main() {
 }
 {% endcodeblock %}
 
-Then fragment shaders:
+Fragment shaders run afterwards:
 {% codeblock lang:js %}
 varying vec3 vColor;
 
@@ -57,7 +57,7 @@ For a more detailed introduction to GLSL and the graphics pipeline, take a look 
 
 ## Using shaders in Three.js
 
-Include your GLSL shaders on the page in script tags, like so:
+Include your GLSL shaders on your page in script tags, like so:
 
 {% codeblock lang:html %}
 <script type="x-shader/x-vertex" id="vertexShader">
@@ -69,9 +69,9 @@ Include your GLSL shaders on the page in script tags, like so:
 </script>
 {% endcodeblock %}
 
-Browsers will not recognize the script type, so they won't be executed as javascript.
+Browsers will not recognize the script type, so they won't execute your shaders as JS.
 
-In Three.js, custom shaders use a `ShaderMaterial`.  When you create this material, you point it to your custom shaders:
+In Three.js, custom shaders use a `ShaderMaterial`.  When you create this material, you supply your custom shaders:
 
 {% codeblock lang:js %}
 material = new THREE.ShaderMaterial({
@@ -84,17 +84,19 @@ material = new THREE.ShaderMaterial({
 
 As you can see, a shader is just text.  Instead of loading the shader from the DOM, you may opt to include the text of your shaders directly in your JS, or you can load it via AJAX request.
 
-As mentioned before, uniforms and attributes are variables passed to your shaders.  They are defined in your JS with set types:
+As mentioned before, uniforms and attributes are variables passed to your shaders.  They are defined in your JS by type and value:
 
 {% codeblock lang:js %}
+// Define a color-typed uniform
 var uniforms = {
-  color: { type: "c", value: new THREE.Color( 0xffffff ) },
+  myColor: { type: "c", value: new THREE.Color( 0xffffff ) },
 };
 {% endcodeblock %}
 
 Attributes are defined as arrays with length equal to the number of vertices.  Each index in the array is an attribute for the corresponding vertex.
 
 {% codeblock lang:js %}
+// My float attribute
 var attributes = {
   size: { type: 'f', value: [] },
 };
@@ -108,7 +110,7 @@ Be careful, type matters. A list of types available is on the [Three.js wiki](ht
 
 ## ANGLE and Hidden Compatibility Issues
 
-If you develop on Linux like me (or a mac), *make sure to test on Windows*.  There are nontrivial differences between webgl on Chrome/Firefox on Windows versus Linux/OSX.
+If you develop on Linux like me (or a mac), *be sure to test on Windows*.  There are nontrivial differences between webgl on Chrome/Firefox on Windows versus Linux/OSX.
 
 This is because in nearly all cases, Windows users are running Microsoft's proprietary DirectX instead of OpenGL.  The GLSL is automatically translated to HLSL (DirectX's equivalent) via [ANGLE](http://code.google.com/p/angleproject/).  Although ANGLE is great because it makes webgl work on Windows, you may occasionally run into some issues.
 
@@ -147,7 +149,7 @@ document.write(hlsl);
 
 I've included a full working example in [this jsfiddle](http://jsfiddle.net/QPaRF/4/).
 
-Unfortunately, I couldn't find the bug just by eyeballing the HLSL.  I used a process-of-elimination approach where I got rid of parts of shader code until things rendered properly.  Then, I added parts back until I found the code that was causing the problem.  Hopefully there will be a better way in the future!
+Unfortunately, I couldn't find the bug just by eyeballing the HLSL.  I used a process-of-elimination approach where I got rid of parts of shader code until things rendered properly.  Then, I added parts back until I found the code that was causing the problem.  Hopefully there will be a better way in the future.
 
 ## Conclusion
 
