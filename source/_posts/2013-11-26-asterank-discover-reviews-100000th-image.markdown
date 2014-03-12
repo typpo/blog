@@ -18,11 +18,11 @@ Sky surveys have been collecting images of the night sky for decades in order to
 
 {% imgcap center http://i.imgur.com/Ur7PRmum.jpg Chelyabinsk, Russia, February 15, 2013 %}
 
-I've [discussed](http://www.ianww.com/2013/08/05/how-a-programmer-can-discover-an-asteroid/) in the past why human reviewal is an important part of this process.  Right now, anything found by asteroid-hunting algorithms needs to be reviewed by a human anyway.  A crowdsourced dataset will ultimately lead to better computer detection with fewer false positives.
+I've [discussed](http://www.ianww.com/2013/08/05/how-a-programmer-can-discover-an-asteroid/) in the past why human reviewal is an important part of this process.  Our asteroid-hunting algorithms are outdated, and all results must be reviewed by humans anyway due to the prevalence of false positive.  There's also a big false negative problem - I've heard some astronomers estimate that algorithms miss over 50% of asteroids in the imagery they're searching.  A crowdsourced dataset will ultimately lead to better computer detection with fewer false positives.
 
 ## Methodology
 
-My approach in Asterank Discover was straightforward, with the intention of saving arder computation for later.  Display a few control images, then display unknowns and images that we don't have enough data on.  User history is recorded so we can determine how much we can trust their ability to actually spot asteroids.
+My approach in Asterank Discover was straightforward, with the intention of saving harder computation for later.  Display a few control images, then display unknowns and images that we don't have enough data on.  User history is recorded so we can decide how much we can trust the ability of individuals to actually spot asteroids.
 
 Next step: an analysis on hundreds of potential asteroids found to compute and check their orbital solutions.
 
@@ -34,9 +34,9 @@ Now that we have a successful prototype, Asterank Discover is folding into a lar
 
 Last week, we [announced](http://www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) an agreement with NASA and Zooniverse to crowdsource reviewal of high-quality images from the Catalina Sky Survey.
 
-"Asteroid Zoo" will be a much smarter and more engaging app that uses the proven methodology of Zooniverse (they did [Galaxy Zoo](http://www.galaxyzoo.org/), [Ice Hunters](https://www.zooniverse.org/project/icehunters), and other successful projects).  Asterank Discover was great validation for this approach, and sets us up nicely with some preliminary data to test.
+"Asteroid Zoo" will be a much smarter and more engaging app that uses the proven methodology of Zooniverse (they did [Galaxy Zoo](http://www.galaxyzoo.org/), [Ice Hunters](https://www.zooniverse.org/project/icehunters), and other successful crowdsourcing projects).  Asterank Discover was great validation for this approach, and sets us up nicely with some preliminary data to test.
 
-{% imgcap center http://i.imgur.com/yre5eNJm.jpg  An average sky survey image. %}
+{% imgcap center http://i.imgur.com/yre5eNJm.jpg  A normal sky survey image. %}
 
 I'm very excited to see where this will lead.  This approach will discover new asteroids and improve our model of the solar system.  It also opens opportunities for interesting algorithmic challenges, and the chance for a normal person to discover an asteroid.
 
