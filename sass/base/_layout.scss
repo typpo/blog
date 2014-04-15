@@ -1,4 +1,4 @@
-$max-width: 780px !default;
+$max-width: 960px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -45,10 +45,10 @@ $header-padding-bottom: 5px !default;
 
 body {
   -webkit-text-size-adjust: none;
-  max-width: $max-width;
+  //max-width: $max-width;
+  width: 100%;
   position: relative;
-  margin: 0 auto;
-  margin-top: 18px;
+  //margin: 0 auto;
   @media only screen and (min-width: 992px) {
     //margin: 0 70px auto;
   }
