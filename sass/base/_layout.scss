@@ -7,10 +7,16 @@ $pad-medium: 35px !default;
 $pad-wide: 55px !default;
 
 // Sidebar widths used in media queries
+/*
 $sidebar-width-medium: 200px !default;
 $sidebar-pad-medium: 15px !default;
 $sidebar-pad-wide: 20px !default;
 $sidebar-width-wide: 200px !default;
+*/
+$sidebar-width-medium: 0px !default;
+$sidebar-pad-medium: 0px !default;
+$sidebar-pad-wide: 0px !default;
+$sidebar-width-wide: 0px !default;
 
 $indented-lists: true !default;
 
@@ -95,7 +101,11 @@ body {
 
 #content {
   overflow: hidden;
-  > div, > article { width: 100%; }
+  max-width: 960px;
+  margin: 0 auto;
+  > div, > article {
+    //width: 100%;
+  }
 }
 
 aside.sidebar {
@@ -121,7 +131,7 @@ body.sidebar-footer {
   @media only screen and (min-width: 750px) {
     aside.sidebar{ @include collapse-sidebar; }
   }
-  #content { margin-right: 0px; }
+  //#content { margin-right: 0px; }
   .toggle-sidebar { display: none; }
 }
 
@@ -143,10 +153,10 @@ body.sidebar-footer {
   }
   #content {
     overflow: visible;
-    margin-right: $sidebar-width-medium;
+    //margin-right: $sidebar-width-medium;
     position: relative;
     .no-sidebar & { margin-right: 0; border-right: 0; }
-    .collapse-sidebar & { margin-right: 20px; }
+    //.collapse-sidebar & { margin-right: 20px; }
     > div, > article {
       padding-top: $pad-medium/2;
       padding-bottom: $pad-medium/2;
@@ -172,11 +182,11 @@ body.sidebar-footer {
 
 @media only screen and (min-width: 992px) {
   body > header { font-size: $header-font-size * 1.3; }
-  #content { margin-right: $sidebar-width-wide; }
+  //#content { margin-right: $sidebar-width-wide; }
   #content {
     > div, > article {
-      padding-top: $pad-wide/2;
-      padding-bottom: $pad-wide/2;
+      //padding-top: $pad-wide/2;
+      //padding-bottom: $pad-wide/2;
     }
   }
   aside.sidebar {
