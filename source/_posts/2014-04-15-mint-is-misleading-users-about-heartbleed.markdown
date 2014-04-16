@@ -6,7 +6,7 @@ comments: true
 categories:
 ---
 
-*Update April 15, 2014: Mint followed up and made a clear statement that the site has never uesd a version of OpenSSL vulnerable to Heartbleed.  This is great news.  Hopefully in the future Mint will move quickly and definitively to address security concerns.*
+**Update** *April 15, 2014: Mint followed up and made a clear statement that the site has never used a version of OpenSSL vulnerable to Heartbleed.  This is great news.  Hopefully in the future Mint will move quickly and definitively to address security concerns.*
 
 [Mint.com](http://mint.com) is a popular personal finance site used by over 10 million people.  Users enter bank logins and Mint aggregates everything so you can see your financials in one place.
 
