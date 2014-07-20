@@ -12,7 +12,8 @@ browsing, trying to find usage examples, and so on.
 
 For all they do right, GitHub is lacking in functionality when it comes to
 conveniently browsing.  They do syntax highlighting but not much else.  Code
-search was added in 2013.
+search was added in 2013 but it's mainly targeted toward one-off searches,
+not browsing within a project.
 
 So I built Chrome and Firefox extensions to fix this.
 [CodeNav](http://ianww.com/codenav) adds a bunch of code navigation features
@@ -48,5 +49,10 @@ on OS and browser.
 ## Project-wide search
 
 So we can jump around in a file easily, but what about stuff in other files?
+
+I decided to use GitHub's built in code search and integrate it more directly
+into the code browser.
+
+Now, clicking on a token will search for it across your current project:
 
 {% img center https://i.imgur.com/QsFJAB4.png %}
