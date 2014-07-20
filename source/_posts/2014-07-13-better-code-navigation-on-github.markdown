@@ -49,4 +49,4 @@ on OS and browser.
 
 So we can jump around in a file easily, but what about stuff in other files?
 
-
+{% img center https://i.imgur.com/QsFJAB4.png %}
