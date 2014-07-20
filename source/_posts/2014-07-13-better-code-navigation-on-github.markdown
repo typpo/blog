@@ -51,8 +51,12 @@ on OS and browser.
 So we can jump around in a file easily, but what about stuff in other files?
 
 I decided to use GitHub's built in code search and integrate it more directly
-into the code browser.
-
-Now, clicking on a token will search for it across your current project:
+into the code browser.  Now, clicking on a token will search for it across your
+current project.  Search results are shown in the bottom third of the page:
 
 {% img center https://i.imgur.com/QsFJAB4.png %}
+
+GitHub's code search leaves something to be desired (for example, it only
+returns one result per file).  But overall it is an extremely useful tool.  I
+think CodeNav adds an enormous amount of practical utility to code search,
+which is currently siloed on its own page.
