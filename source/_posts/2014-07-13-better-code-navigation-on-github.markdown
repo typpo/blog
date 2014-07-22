@@ -3,21 +3,17 @@ layout: post
 title: "Better code navigation on GitHub"
 date: 2014-07-13 14:13
 comments: true
-categories:
-published: false
+categories: [extensions, codenav]
 ---
 
+GitHub is great, but slightly lacking when it comes to browsing code in a project.
+The code search feature is not particularly well-suited for doing things like
+understanding code in a library, tracking down references, and finding usage
+examples within a repo.
 
-GitHub is great but lacking in functionality when it comes to convenient
-browsing.  They do syntax highlighting but not much else.  Code search was
-added in 2013 but it's not well-suited for browsing within a project.  I spend
-most of my time on GitHub Moving around, browsing within projects, and finding
-usage examples.
-
-
-So I built Chrome and Firefox extensions to fix this.
+I built Chrome and Firefox extensions to fix this.
 [CodeNav](http://ianww.com/codenav) is an open-source project that adds several
-code navigation features you'd expect from any IDE or code browsing tool.
+code navigation features you'd expect from most IDEs.
 
 ## Token highlighting
 
