@@ -8,55 +8,63 @@ published: false
 ---
 
 One of the main things I use GitHub for is navigating code.  Moving around,
-browsing, trying to find usage examples, and so on.
+browsing, finding usage examples, and so on.
 
-For all they do right, GitHub is lacking in functionality when it comes to
-conveniently browsing.  They do syntax highlighting but not much else.  Code
-search was added in 2013 but it's mainly targeted toward one-off searches,
-not browsing within a project.
+GitHub is great lacking in functionality when it comes to convenient browsing.
+They do syntax highlighting but not much else.  Code search was added in 2013
+but it's not well-suited for browsing within a project.
 
 So I built Chrome and Firefox extensions to fix this.
-[CodeNav](http://ianww.com/codenav) adds a bunch of code navigation features
-you'd expect from any IDE or code browsing tool.
+[CodeNav](http://ianww.com/codenav) is an open-source project that adds several
+code navigation features you'd expect from any IDE or code browsing tool.
 
 ## Token highlighting
 
-Finding matching variables or objects can be difficult or inconvenient even
-with syntax highlighting.  Most existing IDEs do this to make it easy to
-immediately spot usage of a variable at block or function scope.
+Finding matching variables or objects can be difficult, even with syntax
+highlighting.  Most existing IDEs highlight similar tokens, making it easy to
+immediately see variable usage at block or function scope.
 
 {% img center https://i.imgur.com/X7voZhO.png %}
 
-CodeNav does this by taken each token delineated by GitHub's syntax highlighter
-and indexing it when the page loads.
+<!--more-->
+
+CodeNav [indexes](https://github.com/typpo/codenav/blob/master/src/inject.js#L49) each token defined by GitHub's syntax highlighter, storing the
+corresponding elements for efficient highlighting.
 
 ## Jump to usages
 
-Now that we have syntax-aware token highlighting, let's come up with an easy
-way to navigate them.
+Now that we have highlighting for our objects and variables, let's come up with
+an easy way to navigate among them.
 
 Many IDEs use the scrollbar as a virtual indicator of where the highlights are
-in the document.  I wound up with a nice percentage-based indicator that
-conveys information accurately:
+in the document.  I wound up with a [percentage-based indicator](https://github.com/typpo/codenav/blob/master/src/inject.js#L154) that
+conveys information fairly accurately:
 
 {% img center https://i.imgur.com/Jp39728.png?2 %}
 
-Clicking on them will jump to the corresponding instance.
+Clicking markers will jump to the corresponding variable.
 
-It was a little tricky to get these right.  Placement will vary slightly based
-on OS and browser.
+It was a little tricky to get these right.  Placement varies slightly based on
+OS and browser, but the overall effect is consistent.
 
 ## Project-wide search
 
-So we can jump around in a file easily, but what about stuff in other files?
+We have some good tools for browsing within files, but what about other files?
 
 I decided to use GitHub's built in code search and integrate it more directly
-into the code browser.  Now, clicking on a token will search for it across your
+into the code browser.  Now, clicking on a token [will search for it](https://github.com/typpo/codenav/blob/master/src/inject.js#L202) across your
 current project.  Search results are shown in the bottom third of the page:
 
 {% img center https://i.imgur.com/QsFJAB4.png %}
 
-GitHub's code search leaves something to be desired (for example, it only
-returns one result per file).  But overall it is an extremely useful tool.  I
-think CodeNav adds an enormous amount of practical utility to code search,
-which is currently siloed on its own page.
+GitHub's code search leaves something to be desired (for starters, it only
+    returns one result per file), but overall is very useful.  I think CodeNav
+adds an enormous amount of practical utility to code search, which is currently
+siloed on its own page.
+
+## What's next
+
+This is a good start; I already can't use GitHub without it anymore.  But
+there's still a lot more that can be done.  It doesn't work on diffs/pull
+requests right now because GitHub doesn't syntax highlight those.  I'd also
+like to get multiple search results per file.
