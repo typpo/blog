@@ -48,7 +48,7 @@ OS and browser, but the overall effect is consistent.
 
 We have some good tools for browsing within files, but what about other files?
 
-I decided to use GitHub's built in code search and integrate it more directly
+I decided to use GitHub's built-in code search and integrate it more directly
 into the code browser.  Now, clicking on a token [will search for it](https://github.com/typpo/codenav/blob/master/src/inject.js#L202) across your
 current project.  Search results are shown in the bottom third of the page:
 
