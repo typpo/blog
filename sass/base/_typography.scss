@@ -3,8 +3,8 @@ $sans: "Open Sans", "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
 //$sans: "proxima-nova","Open Sans", "PT Sans", "Helvetica Neue", Helvetica, sans-serif !default;
 //$serif: 'Roboto Slab', ff-tisa-web-pro, Georgia, Cambria, 'Times New Roman', Times, serif !default;
 // $sans: 'Open Sans', sans-serif;
-//$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
-$serif: $sans;
+$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
+//$serif: $sans;
 //$serif: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
 //$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
 $mono: 'Ubuntu Mono' !default;
@@ -12,7 +12,7 @@ $mono: 'Ubuntu Mono' !default;
 
 @import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:600,400|Roboto+Slab:400,700|Ubuntu+Mono:400,700);
 
-$heading-font-family: $sans;
+$heading-font-family: $serif;
 $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $heading-font-family !default;
 
@@ -39,7 +39,7 @@ body > header h2 {
 body {
   line-height: 1.5em;
   color: $text-color;
-  @extend .serif;
+  @extend .sans;
 }
 h1 {
   font-size: 2.2em;
@@ -51,7 +51,7 @@ h1 {
     letter-spacing: .01rem;
     font-weight: 400;
     font-style: normal;
-    font-size: 22px;
+    font-size: 16px;
   }
   h1 { font-size: 2.0em; line-height: 1.2em; }
 }
