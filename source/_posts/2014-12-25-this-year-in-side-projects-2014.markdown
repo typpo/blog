@@ -7,7 +7,7 @@ categories:
 published: false
 ---
 
-2014 has been a great year for various projects. Every year I recap on progress made.  Here are the handful worth talking about:
+Side projects are a great way to learn new skills, hone old ones, and maintain sanity.  2014 has been a great year for projects, both old and new.  Here are the handful worth talking about:
 
 * [Inflation](http://in2013dollars.com) - quick inflation reference
 * [Asterank](http://asterank.com) - space data & analysis
