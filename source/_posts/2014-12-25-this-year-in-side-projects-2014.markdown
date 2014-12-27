@@ -11,12 +11,12 @@ published: false
 
 * [Inflation](http://in2013dollars.com) - quick inflation reference
 * [Asterank](http://asterank.com) - space data & analysis
-* [Asteroid Viewer](http://ianwww.com/asteroid-viewer) - 3d asteroid  modeling
+* [Asteroid Viewer](http://ianwww.com/asteroid-viewer) - modeling asteroids in 3D
 * [Luna](http://ianww.com/moonviz) - moon mission visualization
 * [AdDetector](http://ianww.com/ad-detector) - native ad detection
 * [TextBelt](http://textbelt.com) - free outgoing sms api
 * [ListeningPost](http://bunkmates.co) - contextual conversation annotations
-* [CodeNav](http://ianww.com/codenav) - github enhancements
+* [CodeNav](http://ianww.com/codenav) - github enhancements for chrome
 
 <!-- more -->
 
