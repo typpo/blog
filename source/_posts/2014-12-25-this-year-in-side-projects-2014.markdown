@@ -90,7 +90,7 @@ I also need better ways to prevent abuse.  Some people send texts nonstop, for t
 
 At YC Hacks, a few friends and I built [ListeningPost](http://www.bunkmates.co/), which uses the [Chrome Web Speech API](http://updates.html5rocks.com/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API) to extract important things and concepts from spoken conversation, with the goal of providing useful context during meetings.  We were one of the finalists and presented to everyone at the end, which was fun.
 
-{% img center https://imgur.com/nwXZtDem.png %}
+{% img center https://imgur.com/nwXZtDel.png %}
 
 Despite our success as finalists, I think the app is a few years ahead of its time.  Maybe 5 years from now speech recognition will be so good the app will work perfectly out of the box..
 
@@ -98,7 +98,7 @@ Despite our success as finalists, I think the app is a few years ahead of its ti
 
 [CodeNav](http://ianww.com/codenav) is a Chrome and Firefox extension that makes browsing code on Github much easier.
 
-{% img center https://i.imgur.com/QsFJAB4m.png %}
+{% img center https://i.imgur.com/QsFJAB4l.png %}
 
 It took an afternoon to make and there are about 700 people using it.  Unfortunately I can't keep up with Github's changes, which break parts of the extension.
 
