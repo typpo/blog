@@ -38,7 +38,7 @@ This year one of my favorite opportunities was my illustration for David McCandl
 
 {% imgcap center http://i.imgur.com/L0UmQUAm.jpg The closest I'll get to being published. %}
 
-I’ve also been giving talks about Asterank and open source in space.  These tend to lead to more people and opportunities.  For example, my talk at a NASA conference on the economics of near-Earth objects formed the basis for a few consulting gigs.
+I’ve also been giving talks about Asterank and open source in space, which tend to lead to more people and opportunities.  For example, my talk at a NASA conference on the economics of near-Earth objects formed the basis for a few consulting gigs.
 
 {% imgcap center http://i.imgur.com/u7fjroxm.png Right before I farted and hiccupped at the same time. %}
 
@@ -50,7 +50,7 @@ With Asterank out of my hands, I'm pursuing other space-related work.
 
 This fall I judged a hackathon put on by NASA and the Minor Planet Center at the SETI Institute.  Some of the scientists there study and map asteroids, so I created this [asteroid viewer](http://ianww.com/asteroid-viewer) and polished it up after the hackathon.
 
-{% imgcap center http://i.imgur.com/yQaQHiUm.png Most asteroids are shaped like potatoes. %}
+{% imgcap center http://i.imgur.com/yQaQHiUm.png Many asteroids are shaped like potatoes. %}
 
 Some asteroids are radar-mapped, but most models are derived from light curves as the asteroid passes in front of a star - making this was a great way to learn about the science and math.
 
