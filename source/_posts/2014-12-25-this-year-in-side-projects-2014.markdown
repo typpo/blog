@@ -32,7 +32,7 @@ Next year I’ll make SEO improvements and experiment with AdSense.  I want to s
 
 ## Asterank
 
-Although I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project has led to so many people and opportunities because it garners interest from everyone - media, academics, industry, and people who just think space is cool.
+Although I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project-turned-company has led to many people and opportunities because it garners interest from everyone - media, academics, industry, and people who just like space.
 
 This year one of my favorite opportunities was my illustration for David McCandless's latest book, [Knowledge is Beautiful](http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224?sa-no-redirect=1). He's behind [Information is Beautiful](https://www.facebook.com/informationisbeautiful), the source of many interesting graphics circulating on popular sites.
 
@@ -82,9 +82,9 @@ Due to potential conflicts with my full-time job, I am no longer working on this
 
 I didn’t work on it much this year, except to respond to requests to add carriers, but received some great contributions.
 
-I'm avoiding this project because next steps are hard.  International texting is unreliable and very difficult to debug without owning a phone from each carrier.
+Textbelt's next steps are hard.  International texting is unreliable and very difficult to debug without owning a phone from each carrier.
 
-I also need better ways to prevent abuse.  Some people send texts nonstop, for the most part getting “quota exceeded.”  Some of my volume is due to these useless messages (probably spam) being sent.  Addressing this abuse will cause my overall usage numbers to drop.
+The service also needs better ways to prevent abuse.  Some people send texts nonstop, for the most part getting “quota exceeded.”  These messages, probably spam, inflate the volume of texts sent and jeopardize reliability for regular users.
 
 ## ListeningPost
 
@@ -100,17 +100,15 @@ Despite our success as finalists, I think the app is a few years ahead of its ti
 
 {% img center https://i.imgur.com/QsFJAB4l.png %}
 
-It took an afternoon to make and there are about 700 people using it.  Unfortunately I can't keep up with Github's changes, which break parts of the extension.
+It took an afternoon to make and there are about 700 people using it.  Unfortunately I can't keep up with all of Github's changes, which break parts of the extension.
 
 ## Lessons learned
 
-Nothing profound here, just a few personal notes:
+Nothing profound here, just a few notes from my personal experiences:
 
   * Good things build very slowly, and it's usually the unsexy projects.
   * Crazy stuff happens when you build lots of things and put them out there without second guessing.
   * Giving talks is great fun but a huge timesink.  Learn to be picky.
   * Beware scope creep when consulting (common advice but I learned this firsthand).
   
-The HN community has been a great resource for sharing what I've build, supporting my projects, and introducing me to interesting things and ideas.  So I wanted to say thanks to everyone.
-
-With luck, 2015 will be even better than this year..
+The HN community has been a great resource for sharing what I've build, supporting my projects, and introducing me to interesting things and ideas.  So I wanted to say thanks to everyone.  With luck, 2015 will be even better than this year.
