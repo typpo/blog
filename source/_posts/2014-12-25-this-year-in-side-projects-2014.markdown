@@ -13,7 +13,7 @@ This year has been great for my projects, old and new.  Here are a handful worth
 
 * [Inflation](http://in2013dollars.com) - quick inflation reference
 * [Asterank](http://asterank.com) - space analysis and visualization
-* [Asteroid Viewer](http://ianwww.com/asteroid-viewer) - modeling asteroids in 3D
+* [Asteroid Viewer](http://ianwww.com/asteroid-viewer) - modeling asteroids in 3d
 * [Luna](http://ianww.com/moonviz) - moon mission visualizations
 * [AdDetector](http://ianww.com/ad-detector) - native ad detection
 * [TextBelt](http://textbelt.com) - free outgoing sms api
@@ -26,7 +26,7 @@ This year has been great for my projects, old and new.  Here are a handful worth
 
 The world’s most boring side project, an inflation calculator, had another good year with ~10% month-over-month traffic growth.  It's zero-maintenance except to update CPI data every year.
 
-{% imgcap center http://i.imgur.com/ok3IKvr.png Approaching 40k queries per day. %}
+{% imgcap center http://i.imgur.com/ok3IKvr.png Approaching 40k queries per month. %}
 
 Next year I’ll make SEO improvements and experiment with AdSense.  I want to switch to a generic domain but am afraid of messing with existing search ranking.
 
