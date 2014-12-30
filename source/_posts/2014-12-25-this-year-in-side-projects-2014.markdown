@@ -72,7 +72,7 @@ It was written up by the [Wall Street Journal](http://blogs.wsj.com/cmo/2014/08/
 
 Interestingly, I was immediately contacted by a number of marketing execs and journalists of large publications and newspapers.  Several companies specializing in native ads and content generation reached out too.  I've noticed referrals from industry white papers and other inside sources.
 
-Due to potential conflicts with my full-time job, I am no longer working on this project.  But it seems AdDetector improved the way publishers evaluate deceptive native advertisements.
+I'm no longer working on this project due to potential conflicts with my full-time job.  Despite this, it seems AdDetector influenced publishers' incentives and processes for evaluating deceptive native ads.
 
 ## TextBelt
 
