@@ -7,9 +7,9 @@ categories: [retrospectives]
 published: false
 ---
 
-Side projects are a great way to learn new skills, hone old ones, and maintain sanity.
+This has been another great year for projects, old and new.  [Last year's](/blog/2013/12/31/my-year-in-side-projects/) post was well received so I've written up another this year.
 
-This year has been great for my projects, old and new.  Here are a handful worth talking about:
+Here are a handful of my work worth talking about:
 
 * [Inflation](http://in2013dollars.com) - quick inflation reference
 * [Asterank](http://asterank.com) - space analysis and visualization
