@@ -3,7 +3,7 @@ layout: post
 title: "This year in side projects (2014)"
 date: 2014-12-25 16:41
 comments: true
-categories:
+categories: [retrospectives]
 published: false
 ---
 
@@ -24,15 +24,15 @@ This year has been great for my projects, old and new.  Here are a handful worth
 
 ## Inflation
 
-The world’s most boring side project, an inflation calculator, had another good year with roughly 10% month-over-month traffic growth.  It's zero-maintenance except to update the yearly CPI data.
+The world’s most boring side project, an inflation calculator, had another good year with ~10% month-over-month traffic growth.  It's zero-maintenance except to update CPI data every year.
 
 {% imgcap center http://i.imgur.com/ok3IKvr.png Approaching 40k queries per day. %}
 
-Next year I’ll make SEO improvements and experiment with AdSense.  I want to switch to a generic domain but am afraid of messing with my existing search ranking.
+Next year I’ll make SEO improvements and experiment with AdSense.  I want to switch to a generic domain but am afraid of messing with existing search ranking.
 
 ## Asterank
 
-Although I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project has led to so many interesting people and opportunities because it garners interest from everyone - media, academics, industry, and people who just think space is cool.
+Although I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project has led to so many people and opportunities because it garners interest from everyone - media, academics, industry, and people who just think space is cool.
 
 This year one of my favorite opportunities was my illustration for David McCandless's latest book, [Knowledge is Beautiful](http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224?sa-no-redirect=1). He's behind [Information is Beautiful](https://www.facebook.com/informationisbeautiful), the source of many interesting graphics circulating on popular sites.
 
@@ -42,7 +42,7 @@ I’ve also been giving talks about Asterank and open source in space.  These te
 
 {% imgcap center http://i.imgur.com/u7fjroxm.png Right before I farted and hiccupped at the same time. %}
 
-I also spoke at Import.io’s Data Summit, SpaceVision, DBCx, and Planet Labs.  Some were small, some larger, but all good ways to learn and meet people.
+I had six other speaking engagements this fall.  Some were small, some large, but all good ways to learn and meet people.
 
 ## Asteroid Viewer
 
@@ -56,7 +56,7 @@ Some asteroids are radar-mapped, but most models are derived from light curves a
 
 ## Luna
 
-I also built [this visualization](http://ianww.com/moonviz) of missions to the moon for a consulting gig.
+For a consulting project I built [this visualization](http://ianww.com/moonviz) of missions to the moon.
 
 {% img center http://i.imgur.com/xtmqQQAl.png %}
 
@@ -66,7 +66,7 @@ I think I'll be able to add a few more missions to this visualization soon.
 
 [AdDetector](http://ianww.com/ad-detector) is a Chrome and Firefox extension that detects corporate-sponsored articles masquerading as unbiased journalism (a form of native advertising).
 
-It got written up by the [Wall Street Journal](http://blogs.wsj.com/cmo/2014/08/20/ad-detector-native-ads/), [Lifehacker](http://lifehacker.com/addetector-notifies-you-if-a-story-you-re-reading-is-sp-1640980949), [Engadget](http://www.engadget.com/2014/08/21/browser-plug-in-sponsored-content/), and many other places, with over 15,000 installs.
+It was written up by the [Wall Street Journal](http://blogs.wsj.com/cmo/2014/08/20/ad-detector-native-ads/), [Lifehacker](http://lifehacker.com/addetector-notifies-you-if-a-story-you-re-reading-is-sp-1640980949), [Engadget](http://www.engadget.com/2014/08/21/browser-plug-in-sponsored-content/), and many others, with over 15,000 installs.
 
 {% imgcap center https://i.imgur.com/ARDaVjTl.png Yahoo Finance article on climate change, paid for by an oil company. %}
 
@@ -76,13 +76,13 @@ Due to potential conflicts with my full-time job, I am no longer working on this
 
 ## TextBelt
 
-[TextBelt](http://textbelt.com), my free SMS API, is growing quite a bit.  My site now sends ~30,000 texts per month.  Because the server is [open source](http://github.com/typpo/textbelt), there are additional people running it standalone or as a node module.
+[TextBelt](http://textbelt.com), my free SMS API, is growing quite a bit.  The site now sends ~30,000 texts per month.  Because the server is [open source](http://github.com/typpo/textbelt), there are additional people running it standalone or as a node module.
 
 {% imgcap center http://i.imgur.com/3StjlWf.png About 30k texts per month. %}
 
 I didn’t work on it much this year, except to respond to requests to add carriers, but received some great contributions.
 
-The next steps for this project are hard.  International texting is unreliable, and problems are very difficult to debug without owning a phone for each carrier.
+I'm avoiding this project because next steps are hard.  International texting is unreliable and very difficult to debug without owning a phone from each carrier.
 
 I also need better ways to prevent abuse.  Some people send texts nonstop, for the most part getting “quota exceeded.”  Some of my volume is due to these useless messages (probably spam) being sent.  Addressing this abuse will cause my overall usage numbers to drop.
 
@@ -90,7 +90,7 @@ I also need better ways to prevent abuse.  Some people send texts nonstop, for t
 
 At YC Hacks, a few friends and I built [ListeningPost](http://www.bunkmates.co/), which uses the [Chrome Web Speech API](http://updates.html5rocks.com/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API) to extract important things and concepts from spoken conversation, with the goal of providing useful context during meetings.  We were one of the finalists and presented to everyone at the end, which was fun.
 
-{% img center https://imgur.com/nwXZtDel.png %}
+{% imgcap center https://imgur.com/nwXZtDel.png The prize was a lifetime supply of Dropbox tshirts. %}
 
 Despite our success as finalists, I think the app is a few years ahead of its time.  Maybe 5 years from now speech recognition will be so good the app will work perfectly out of the box..
 
@@ -104,10 +104,13 @@ It took an afternoon to make and there are about 700 people using it.  Unfortuna
 
 ## Lessons learned
 
-  
-  * Giving talks is great but a huge timesink.  Learn to say no.
+Nothing profound here, just a few personal notes:
+
   * Good things build very slowly, and it's usually the unsexy projects.
-  * Serendipity happens when you build lots of things and put them out there without second guessing.  I really enjoy this.
+  * Crazy stuff happens when you build lots of things and put them out there without second guessing.
+  * Giving talks is great fun but a huge timesink.  Learn to be picky.
   * Beware scope creep when consulting (common advice but I learned this firsthand).
   
-With luck, next year will be even better than this.  See you in 2015..
+The HN community has been a great resource for sharing what I've build, supporting my projects, and introducing me to interesting things and ideas.  So I wanted to say thanks to everyone.
+
+With luck, 2015 will be even better than this year..
