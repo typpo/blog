@@ -6,7 +6,7 @@ comments: true
 categories: [retrospectives]
 ---
 
-This has been another great year for projects, old and new.  [Last year's](/blog/2013/12/31/my-year-in-side-projects/) post was well received so I've written up another this year.
+This has been another great year for projects, old and new.  [Last year's](http://www.ianww.com/blog/2013/12/31/my-year-in-side-projects/) post was well received so I've written up another this year.
 
 Here are my projects worth talking about:
 
