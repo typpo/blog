@@ -47,9 +47,9 @@ I'm no longer working on this project due to potential conflicts with my full-ti
 
 ## Asterank
 
-Although I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project-turned-acquisition has led to many people and opportunities because it garners interest from everyone - media, academics, industry, and people who just like space.
+Although I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project-turned-acquisition has led to many people and opportunities because it garners interest from everyone - media, academics, industry, and those who just like space.
 
-This year one of my favorite opportunities was my illustration for David McCandless's latest book, [Knowledge is Beautiful](http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224?sa-no-redirect=1). He's behind [Information is Beautiful](https://www.facebook.com/informationisbeautiful), the source of many interesting graphics circulating on popular sites.
+This year one of my favorite opportunities was my illustration for David McCandless's latest book, [Knowledge is Beautiful](http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224?sa-no-redirect=1). He's behind [Information is Beautiful](https://www.facebook.com/informationisbeautiful), the source of many interesting graphics circulating the internet.
 
 {% imgcap center http://i.imgur.com/L0UmQUAm.jpg The closest I'll get to being published. %}
 
@@ -59,13 +59,13 @@ I’ve also been giving talks about Asterank and [open source in space](https://
 
 I think I had six other speaking engagements this fall.  Some were small, some large, but all good ways to learn and meet people.
 
-Other really cool stuff has come up too.  For example, I'm working with some scientists and a VR-goggle company to bring Asterank and other 3D space simulations to true 3D VR.
+Other really cool stuff has come up too.  For example, I'm working with some scientists and a VR-goggle company to bring Asterank and other 3D space simulations to true 3D virtual reality.
 
 ## Asteroid Viewer
 
 With Asterank out of my hands, I'm pursuing other space-related work.
 
-This fall I judged a hackathon put on by NASA and the Minor Planet Center at the SETI Institute.  Some of the scientists there study and map asteroids, so I created this [asteroid viewer](http://ianww.com/asteroid-viewer) and polished it up after the hackathon ([source](https://github.com/typpo/ast3d)).
+This fall I judged a hackathon put on by NASA and the Minor Planet Center at the SETI Institute.  Some of the scientists there study and map asteroids, so I created this [asteroid viewer](http://ianww.com/asteroid-viewer) and polished it up after the hackathon ([source code](https://github.com/typpo/ast3d)).
 
 {% imgcap center http://i.imgur.com/yQaQHiUm.png Many asteroids are shaped like potatoes. %}
 
