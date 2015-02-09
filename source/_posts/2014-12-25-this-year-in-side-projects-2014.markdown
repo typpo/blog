@@ -37,7 +37,7 @@ The service also needs better ways to prevent abuse.  Some people send texts non
 
 [AdDetector](http://ianww.com/ad-detector) is a Chrome and Firefox extension that detects corporate-sponsored articles masquerading as unbiased journalism (a form of native advertising).
 
-It was written up by the [Wall Street Journal](http://blogs.wsj.com/cmo/2014/08/20/ad-detector-native-ads/), [Lifehacker](http://lifehacker.com/addetector-notifies-you-if-a-story-you-re-reading-is-sp-1640980949), [Engadget](http://www.engadget.com/2014/08/21/browser-plug-in-sponsored-content/), and many others, with over 15,000 installs.
+It was written up by the [Wall Street Journal](http://blogs.wsj.com/cmo/2014/08/20/ad-detector-native-ads/), [Lifehacker](http://lifehacker.com/addetector-notifies-you-if-a-story-you-re-reading-is-sp-1640980949), [Engadget](http://www.engadget.com/2014/08/21/browser-plug-in-sponsored-content/), and many others, with over 15,000 installs (and [open sourced](https://github.com/typpo/ad-detector)).
 
 {% imgcap center https://i.imgur.com/ARDaVjTl.png Yahoo Finance article on climate change, paid for by an oil company. %}
 
@@ -47,7 +47,7 @@ I'm no longer working on this project due to potential conflicts with my full-ti
 
 ## Asterank
 
-Although I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project-turned-acquisition has led to many people and opportunities because it garners interest from everyone - media, academics, industry, and those who just like space.
+Although I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project-turned-acquisition has led to many people and opportunities because it garners interest from everyone - media, academics, industry, and those who just like space (it's also mostly [open source](https://github.com/typpo/asterank)).
 
 This year one of my favorite opportunities was my illustration for David McCandless's latest book, [Knowledge is Beautiful](http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224?sa-no-redirect=1). He's behind [Information is Beautiful](https://www.facebook.com/informationisbeautiful), the source of many interesting graphics circulating the internet.
 
