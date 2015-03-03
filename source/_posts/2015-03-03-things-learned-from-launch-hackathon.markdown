@@ -37,13 +37,14 @@ All three of us used to work at a small company, where we’d spend hours each w
 
 I knew our idea had legs but it wasn't flashy or cool, so the only way to make it stand out was to get real people committed.  This would solve the chicken-and-egg problem of our two-sided marketplace.
 
-  * **Posted on social media** - the appropriate subreddits, Hacker News (where the thread died without much notice), and even Google+.
+  * **Users at all costs** - for an idea like this, you need people to prove it.
+  * **Post on social media** - the appropriate subreddits, Hacker News (where the thread died without much notice), and even Google+.
   * **Ads** - A Facebook ad was a few dollars and led to a couple clicks.
   * **Hackathon Hackers** - this Facebook group is a great community of people who are super supportive of hacks.  Their support was incredibly helpful.
 
 **In less than 24 hours, we received over 100 signups.**  100+ engineers who want to interview for me, 5-10 companies that want to interview technical candidates but don’t have the in-house resources to do so.
 
-Early traction was a huge boost for us.  The fact that we had already solved our two-sided marketplace problem and proven the market played an important role in our success.
+Early traction was a huge boost for us.  The fact that we had already solved our two-sided marketplace problem and proved the market played an important role in our success.
 
 ## Pitch early
 
