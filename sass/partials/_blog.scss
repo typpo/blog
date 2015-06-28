@@ -53,7 +53,9 @@ article {
   .caption-wrapper {
     display: inline-block;
     margin-bottom: 10px;
+    text-decoration: none !important;
     .caption-text {
+      text-decoration: none !important;
       margin-top: -23px;
       //background: #fff;
       text-align: center;
